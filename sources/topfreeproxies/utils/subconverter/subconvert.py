@@ -109,7 +109,9 @@ def subconverterhandler(subscription,input_config={'target':'transfer','rename':
     exclude = input_config['exclude']
     config = input_config['config']
     print(f"Setting URL for target {target}: {url}")  # 调试打印
-    configparse.set(target,'url',url)
+    print("写入配置前的 URL:", url)
+    configparse.set(target, 'url', url)
+    print("写入后配置文件中的 URL:", origin_configparse[target]['url'])
     configparse.set(target,'rename',rename)
     configparse.set(target,'include',include)
     configparse.set(target,'exclude',exclude)

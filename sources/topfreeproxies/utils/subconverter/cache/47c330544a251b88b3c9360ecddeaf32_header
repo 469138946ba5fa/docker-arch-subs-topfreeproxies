@@ -1,36 +1,36 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 27 May 2025 20:33:26 GMT
+Date: Tue, 27 May 2025 20:55:57 GMT
 Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
 Server: cloudflare
 Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250527.yaml
-Expires: Tue, 27 May 2025 20:33:25 GMT
+Expires: Tue, 27 May 2025 20:55:56 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CElYjuuJ%2B7LsIUWbM27nIhzpVayRMURbn6pW5U9Rwh6%2BCZQyeoe%2F0TXmsloNdRCKJL%2B2EDanlDWyOzbsydJlKzYY%2Ff1vGEHIFBIp07%2FBcoCnrWbE7uGzdI2N"}]}
-CF-RAY: 94684988ca5e264e-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fldJ7pVzTWlG5pl4D1xniaFOX%2BJPAVMjFZ98JMk1MBPkanEFwCsUll8r11GnWcHnYtHJ%2FX%2B4k0gphhd7K5WqRtntTVZ2QkjEV45M8UOppA18It8hYRa1zAdd"}]}
+CF-RAY: 94686a866aa5d766-NRT
 alt-svc: h3=":443"; ma=86400
 
 HTTP/1.1 200 OK
-Date: Tue, 27 May 2025 20:33:28 GMT
+Date: Tue, 27 May 2025 20:55:59 GMT
 Content-Type: application/octet-stream
 Content-Length: 191721
 Connection: keep-alive
 Server: cloudflare
 Last-Modified: Tue, 27 May 2025 05:00:04 GMT
 Etag: "683546d4-2ece9"
-Expires: Tue, 27 May 2025 20:33:27 GMT
+Expires: Tue, 27 May 2025 20:55:58 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Accept-Ranges: bytes
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NyCglImlVbH9hP07GhCNGI2ChME2W8ROdHBzHL1xnXXMxBsEQXv9NtQZLYWYKqzdvKFTF0%2BveY17KxMLfcjWsYiHNZHi50VBSL2wa0UJfqGzkN9jQHqPyu15O%2BAtaQ%3D%3D"}]}
-CF-RAY: 946849923a05d472-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9lqC3RcOCpjT7%2BEH5bSjyU3LPRJEc0a0OyK1pxcA6ZyU57k2c6LG14oG7lGdKZgX4eWDIODSrTkD3I%2BIMl78Xb0qwgfrQ8dq8TpIi%2FjDnkgK3VtHwjgm73AeLNb0Vw%3D%3D"}]}
+CF-RAY: 94686a8f4ea7d753-NRT
 alt-svc: h3=":443"; ma=86400
 

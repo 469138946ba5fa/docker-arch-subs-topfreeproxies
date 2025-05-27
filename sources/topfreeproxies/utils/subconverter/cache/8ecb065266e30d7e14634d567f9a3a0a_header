@@ -1,36 +1,36 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 27 May 2025 20:33:23 GMT
+Date: Tue, 27 May 2025 20:55:55 GMT
 Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
 Server: cloudflare
 Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250527.txt
-Expires: Tue, 27 May 2025 20:33:22 GMT
+Expires: Tue, 27 May 2025 20:55:53 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BqUHUK5M%2B6SKwQSdFXM%2BVzbegmviGV1SQNYBw3A9jKLlQ%2F%2BdZJObMGn73CprW0Ul1Jd83pNNlKZiyVPGMNBPMLZ3c%2F%2BW1pD3NvHiaqDAoNU%2BjiFKOBAPF7dc"}]}
-CF-RAY: 94684976ac3b3bfc-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ns7fs%2FCLiOqfNGbm%2FUNzpi8YaOAEqOJ7TQqFdS31VfWFZ4%2F8dTZwsoGVsYumlwhllNWvNM5WcdIjtSz0c6V1yfP8qolvyLnaSxNbldvoqzh5iLAOlJAeGwOJ"}]}
+CF-RAY: 94686a748db5d49e-NRT
 alt-svc: h3=":443"; ma=86400
 
 HTTP/1.1 200 OK
-Date: Tue, 27 May 2025 20:33:25 GMT
+Date: Tue, 27 May 2025 20:55:56 GMT
 Content-Type: text/plain
 Content-Length: 4844
 Connection: keep-alive
 Server: cloudflare
 Last-Modified: Tue, 27 May 2025 05:00:04 GMT
 Etag: "683546d4-12ec"
-Expires: Tue, 27 May 2025 20:33:24 GMT
+Expires: Tue, 27 May 2025 20:55:55 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Accept-Ranges: bytes
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=PYbSo9FX%2FjKyjkIhhDj31C8n%2F2eimpLVNtzhB9dBA%2B3cDCO9CxW09ofLwCSoHqOks%2Byocc7%2BNPm2eSTHT2%2FgvPDA3OP%2BXxbNoLlAbym0o%2BZ3KqMObqeYwo21l7OFmA%3D%3D"}]}
-CF-RAY: 9468497f8cf6d788-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=C15mrDWo%2FyuBmbGbE3cZ4wo5mPsjYbJeopdFxYTQE7q6ue2VEbARiHzmiyGuc23Vd9kGsIn5QPzWQK9da21Mi9KPHqJOUEGfquAU%2BdrEkA3IlUg8yYUE0rtggc3D8g%3D%3D"}]}
+CF-RAY: 94686a7d6db3e375-NRT
 alt-svc: h3=":443"; ma=86400
 
