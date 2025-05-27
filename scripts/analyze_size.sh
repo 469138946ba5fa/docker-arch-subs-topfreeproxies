@@ -31,6 +31,7 @@ mkdir -p /var/log
 
 # 定义需要采集快照的目录（示例中使用常用的几个目录，可按需求修改）
 DIRS=(
+    "/topfreeproxies"
     "/usr/local"
     "/root"
     "/opt"

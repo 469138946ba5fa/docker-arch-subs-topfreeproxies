@@ -584,151 +584,111 @@ analyze_size.sh after-clean after-install
 - **analyze_size.sh 检查结果，得到的日志结果如下**
 - **总结：似乎镜像无法优化了，已到绝处，无法逢生，在绝对的力量面前任何优化手段都毫无意义😮‍💨**
 ```plaintext
-(py3.12.10) root@fb4b44bc7f4a:/notebook# analyze_size.sh after-install before-install
+docker-compose exec -it subs_topfreeproxies_service analyze_size.sh after-install before-install
 [信息] 快照 after-install 已存在，跳过采集。如需更新请使用 --force 参数。
-=== [after-install] 镜像体积快照 2025-05-01 05:13:49 ===
+=== [after-install] 镜像体积快照 2025-05-27 20:48:12 ===
 
-/opt/jdk-25+9   297MB
-/opt/Miniforge  5GB
-/root/.bashrc   3KB
-/root/.cache    2MB
-/root/.conda    30b
-/root/.ipython  0b
-/root/.jbang    203MB
-/root/.jupyter  32b
-/root/.local    328b
-/root/.m2       2MB
-/root/.mamba    0b
-/root/.profile  391b
-/root/.ssh      0b
-/usr/local/bin  41KB
-/usr/local/etc  0b
-/usr/local/games        0b
-/usr/local/include      0b
-/usr/local/lib  0b
-/usr/local/libexec      0b
-/usr/local/man  9b
-/usr/local/sbin 0b
-/usr/local/share        0b
-/usr/local/src  0b
-/var/cache/adduser      0b
-/var/cache/apt  0b
-/var/cache/debconf      2MB
-/var/cache/ldconfig     8KB
-/var/cache/private      0b
-/var/lib/apt/extended_states    5KB
-/var/lib/apt/lists      35MB
-/var/lib/apt/mirrors    0b
-/var/lib/apt/periodic   0b
+/root/.bashrc	3KB
+/root/.profile	210b
+/root/.ssh	0b
+/usr/local/bin	20KB
+/usr/local/etc	0b
+/usr/local/games	0b
+/usr/local/include	0b
+/usr/local/lib	91MB
+/usr/local/libexec	0b
+/usr/local/man	9b
+/usr/local/sbin	0b
+/usr/local/share	0b
+/usr/local/src	0b
+/var/cache/adduser	0b
+/var/cache/apt	0b
+/var/cache/debconf	2MB
+/var/cache/ldconfig	7KB
+/var/cache/private	0b
+/var/lib/apt/extended_states	4KB
+/var/lib/apt/lists	36MB
+/var/lib/apt/mirrors	0b
+/var/lib/apt/periodic	0b
 
 🔍 [对比] before-install ➜ after-install 体积变化:
 
-/opt/jdk-25+9           297MB ->(+297MB)
-/opt/Miniforge          5GB ->(+5GB)
-/root/.bashrc           3KB ->(+259b)
-/root/.cache            2MB ->(+2MB)
-/root/.conda            30b ->(+30b)
-/root/.ipython          0b ->(0b)
-/root/.jbang            203MB ->(+203MB)
-/root/.jupyter          32b ->(+32b)
-/root/.local            328b ->(+328b)
-/root/.m2               2MB ->(+2MB)
-/root/.mamba            0b ->(0b)
-/root/.profile          391b ->(+259b)
-/root/.ssh              0b ->(0b)
-/usr/local/bin          41KB ->(0b)
-/usr/local/etc          0b ->(0b)
-/usr/local/games        0b ->(0b)
-/usr/local/include      0b ->(0b)
-/usr/local/lib          0b ->(0b)
-/usr/local/libexec      0b ->(0b)
-/usr/local/man          9b ->(0b)
-/usr/local/sbin         0b ->(0b)
-/usr/local/share        0b ->(0b)
-/usr/local/src          0b ->(0b)
-/var/cache/adduser      0b ->(0b)
-/var/cache/apt          0b ->(0b)
-/var/cache/debconf      2MB ->(+1MB)
-/var/cache/ldconfig     8KB ->(+3KB)
-/var/cache/private      0b ->(0b)
-/var/lib/apt/extended_states    5KB ->(+5KB)
-/var/lib/apt/lists      35MB ->(+35MB)
-/var/lib/apt/mirrors    0b ->(0b)
-/var/lib/apt/periodic   0b ->(0b)
+/root/.bashrc       	3KB ->(+78b)
+/root/.profile      	210b ->(+78b)
+/root/.ssh          	0b ->(0b)
+/usr/local/bin      	20KB ->(+2KB)
+/usr/local/etc      	0b ->(0b)
+/usr/local/games    	0b ->(0b)
+/usr/local/include  	0b ->(0b)
+/usr/local/lib      	91MB ->(+91MB)
+/usr/local/libexec  	0b ->(0b)
+/usr/local/man      	9b ->(0b)
+/usr/local/sbin     	0b ->(0b)
+/usr/local/share    	0b ->(0b)
+/usr/local/src      	0b ->(0b)
+/var/cache/adduser  	0b ->(0b)
+/var/cache/apt      	0b ->(0b)
+/var/cache/debconf  	2MB ->(+1MB)
+/var/cache/ldconfig 	7KB ->(+3KB)
+/var/cache/private  	0b ->(0b)
+/var/lib/apt/extended_states	4KB ->(+4KB)
+/var/lib/apt/lists  	36MB ->(+36MB)
+/var/lib/apt/mirrors	0b ->(0b)
+/var/lib/apt/periodic	0b ->(0b)
 ```
 
 ```plaintext
-(py3.12.10) root@fb4b44bc7f4a:/notebook# analyze_size.sh after-clean after-install
+docker-compose exec -it subs_topfreeproxies_service analyze_size.sh after-clean after-install
 [信息] 快照 after-clean 已存在，跳过采集。如需更新请使用 --force 参数。
-=== [after-clean] 镜像体积快照 2025-05-01 05:13:57 ===
+=== [after-clean] 镜像体积快照 2025-05-27 20:48:54 ===
 
-/opt/jdk-25+9   297MB
-/opt/Miniforge  3GB
-/root/.bashrc   3KB
-/root/.cache    0b
-/root/.conda    30b
-/root/.ipython  0b
-/root/.jbang    203MB
-/root/.jupyter  32b
-/root/.local    328b
-/root/.m2       2MB
-/root/.mamba    0b
-/root/.profile  391b
-/root/.ssh      0b
-/usr/local/bin  9KB
-/usr/local/etc  0b
-/usr/local/games        0b
-/usr/local/include      0b
-/usr/local/lib  0b
-/usr/local/libexec      0b
-/usr/local/man  9b
-/usr/local/sbin 0b
-/usr/local/share        0b
-/usr/local/src  0b
-/var/cache/adduser      0b
-/var/cache/apt  0b
-/var/cache/debconf      2MB
-/var/cache/ldconfig     8KB
-/var/cache/private      0b
-/var/lib/apt/extended_states    5KB
-/var/lib/apt/lists      0b
-/var/lib/apt/mirrors    0b
-/var/lib/apt/periodic   0b
+/root/.bashrc	3KB
+/root/.profile	210b
+/root/.ssh	0b
+/usr/local/bin	8KB
+/usr/local/etc	0b
+/usr/local/games	0b
+/usr/local/include	0b
+/usr/local/lib	91MB
+/usr/local/libexec	0b
+/usr/local/man	9b
+/usr/local/sbin	0b
+/usr/local/share	0b
+/usr/local/src	0b
+/var/cache/adduser	0b
+/var/cache/apt	0b
+/var/cache/debconf	2MB
+/var/cache/ldconfig	7KB
+/var/cache/private	0b
+/var/lib/apt/extended_states	4KB
+/var/lib/apt/lists	0b
+/var/lib/apt/mirrors	0b
+/var/lib/apt/periodic	0b
 
 🔍 [对比] after-install ➜ after-clean 体积变化:
 
-/opt/jdk-25+9           297MB ->(0b)
-/opt/Miniforge          3GB ->(-2GB)
-/root/.bashrc           3KB ->(0b)
-/root/.cache            0b ->(-2MB)
-/root/.conda            30b ->(0b)
-/root/.ipython          0b ->(0b)
-/root/.jbang            203MB ->(0b)
-/root/.jupyter          32b ->(0b)
-/root/.local            328b ->(0b)
-/root/.m2               2MB ->(0b)
-/root/.mamba            0b ->(0b)
-/root/.profile          391b ->(0b)
-/root/.ssh              0b ->(0b)
-/usr/local/bin          9KB ->(-32KB)
-/usr/local/etc          0b ->(0b)
-/usr/local/games        0b ->(0b)
-/usr/local/include      0b ->(0b)
-/usr/local/lib          0b ->(0b)
-/usr/local/libexec      0b ->(0b)
-/usr/local/man          9b ->(0b)
-/usr/local/sbin         0b ->(0b)
-/usr/local/share        0b ->(0b)
-/usr/local/src          0b ->(0b)
-/var/cache/adduser      0b ->(0b)
-/var/cache/apt          0b ->(0b)
-/var/cache/debconf      2MB ->(0b)
-/var/cache/ldconfig     8KB ->(0b)
-/var/cache/private      0b ->(0b)
-/var/lib/apt/extended_states    5KB ->(0b)
-/var/lib/apt/lists      0b ->(-35MB)
-/var/lib/apt/mirrors    0b ->(0b)
-/var/lib/apt/periodic   0b ->(0b)
+/root/.bashrc       	3KB ->(0b)
+/root/.profile      	210b ->(0b)
+/root/.ssh          	0b ->(0b)
+/usr/local/bin      	8KB ->(-12KB)
+/usr/local/etc      	0b ->(0b)
+/usr/local/games    	0b ->(0b)
+/usr/local/include  	0b ->(0b)
+/usr/local/lib      	91MB ->(0b)
+/usr/local/libexec  	0b ->(0b)
+/usr/local/man      	9b ->(0b)
+/usr/local/sbin     	0b ->(0b)
+/usr/local/share    	0b ->(0b)
+/usr/local/src      	0b ->(0b)
+/var/cache/adduser  	0b ->(0b)
+/var/cache/apt      	0b ->(0b)
+/var/cache/debconf  	2MB ->(0b)
+/var/cache/ldconfig 	7KB ->(0b)
+/var/cache/private  	0b ->(0b)
+/var/lib/apt/extended_states	4KB ->(0b)
+/var/lib/apt/lists  	0b ->(-36MB)
+/var/lib/apt/mirrors	0b ->(0b)
+/var/lib/apt/periodic	0b ->(0b)
 ```
 
 ## 起因与内心：
