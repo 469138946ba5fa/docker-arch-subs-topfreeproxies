@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Tue, 27 May 2025 22:57:54 GMT
+Date: Tue, 27 May 2025 23:11:50 GMT
 Content-Type: application/octet-stream; charset=utf-8
 Content-Length: 53233
 Connection: keep-alive
@@ -7,11 +7,11 @@ Server: cloudflare
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Profile-Update-Interval: 24
 Cache-Control: no-store, no-cache, must-revalidate
-Content-Disposition: attachment; filename=Clash_1748386674.yaml
-Subscription-Userinfo: upload=214955796538; download=10484016767237; total=10736473473024; expire=1752132656
+Content-Disposition: attachment; filename=Clash_1748387510.yaml
+Subscription-Userinfo: upload=215183111996; download=10505268895806; total=10736473473024; expire=1752132656
 Strict-Transport-Security: max-age=31536000
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=A841RNDlW%2B6wzfDAFLxvQ%2FspzunITU3%2B05elFVvzWwKJGJ28vt3rlIrCz8VgpvXkX5aSyNGdsWt1E8dQh6shNjPI%2B%2FM3BhkJUT8R4FHaNWgzBq6mD8J66UBk%2FfI%3D"}]}
-CF-RAY: 94691d28aabd80e1-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fhTSMBxHzvy2Ujkk9WXu4NfO1BH3wYbJ8mG9T76nB6tKfDvz0bDWTRveac6Y9PyMW6XVx4kSDW4OP8t5TrMSEZHSRFy%2FGgmdeqNZzruvfmhAyt12mWCt22Aya%2B4%3D"}]}
+CF-RAY: 94693193b833af66-NRT
 alt-svc: h3=":443"; ma=86400
 
