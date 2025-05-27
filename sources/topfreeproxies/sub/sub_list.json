@@ -3,7 +3,7 @@
     "id": 0,
     "remarks": "crazygeeky",
     "site": "https://www.crazygeeky.com/",
-    "url": "https://crazygeeky.com/wp-content/uploads/attachment/20250527.yaml",
+    "url": "https://crazygeeky.com/wp-content/uploads/attachment/20250527.txt|https://crazygeeky.com/wp-content/uploads/attachment/20250527.yaml",
     "update_method": "change_date",
     "enabled": true
   },
@@ -11,7 +11,7 @@
     "id": 1,
     "remarks": "Fukki-Z/nodefree",
     "site": "https://nodefree.org/f/freenode|Fukki-Z/nodefree|FiFier/v2rayShare",
-    "url": "https://nodefree.org/dy/2025/05/20250527.yaml|https://nodefree.org/dy/2025/05/20250527.txt|https://v2rayshare.com/wp-content/uploads/2025/05/20250527.txt",
+    "url": "https://nodefree.org/dy/2025/05/20250527.txt|https://v2rayshare.com/wp-content/uploads/2025/05/20250527.txt",
     "update_method": "change_date",
     "enabled": true
   },
