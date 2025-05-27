@@ -1,36 +1,36 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 27 May 2025 14:11:20 GMT
+Date: Tue, 27 May 2025 14:45:42 GMT
 Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
 Server: cloudflare
 Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250527.yaml
-Expires: Tue, 27 May 2025 14:11:19 GMT
+Expires: Tue, 27 May 2025 14:45:41 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Op7gNRM5HMhX9GwyQSzefC9bnEaiC4dny6Z%2BG6wPi%2BzyAjllBpPst7%2FKcSb%2F3SxVE5WmohKdm%2FBbU%2BCa%2BtYZQIBQLeaDbDEeiuo9q4rT8xGjpT1DgcnRsKzU"}]}
-CF-RAY: 946619d30cef58bf-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=J6L9tgYCyZ1sca325T7%2FjbU26lqjmOldJfJbWNUnFjMyTi7Yiufo3sxrHSQJGGJlOSdITW2nSzguAxvGUOlq3KDo6cyVAv6xmYD15B4P"}]}
+CF-RAY: 94664c2b6fda5dec-HKG
 alt-svc: h3=":443"; ma=86400
 
 HTTP/1.1 200 OK
-Date: Tue, 27 May 2025 14:11:22 GMT
+Date: Tue, 27 May 2025 14:45:46 GMT
 Content-Type: application/octet-stream
 Content-Length: 191721
 Connection: keep-alive
 Server: cloudflare
 Last-Modified: Tue, 27 May 2025 05:00:04 GMT
 Etag: "683546d4-2ece9"
-Expires: Tue, 27 May 2025 14:11:21 GMT
+Expires: Tue, 27 May 2025 14:45:45 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Accept-Ranges: bytes
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ljgODKjsSUJTedlPvJwvNfHlwvmnnYMIOU6QncMI%2BS%2BSAVkSnLd3wOybzpPlmyrx8SNvULQz1%2Bm26TEG%2FJ28Mtu9G%2BUlqxdhGTL4NC32VBTzaY%2FGxcwZ2qcqWTTa8g%3D%3D"}]}
-CF-RAY: 946619dd9c24e08a-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=m0PEYpFBZn6pkaXtO5hOxQjNd8SZQsYdWnw9KtFqHQbZHe%2FZjEGR4wu5%2FXLFo0WpUhYgyR59WlfU6GVarjCUw1JMzqq52tMZ2eH59yZCWpzKew%3D%3D"}]}
+CF-RAY: 94664c3f6d77ce5e-SIN
 alt-svc: h3=":443"; ma=86400
 

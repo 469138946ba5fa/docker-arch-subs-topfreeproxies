@@ -56,7 +56,7 @@ python utils/main.py
 #sed -i 's;cipher: ss;cipher: chacha20-ietf-poly1305;g' Eternity
 
 # 关闭开启本地 http 协议访问
-kill -9 $(ps -ef | grep -v grep | grep "http.server" | awk '{print $2}')
+kill -9 $(ps -ef | grep -v grep | grep "http.server" | awk '{print $2}') || true
 python -m http.server &
 
 # 删除python cache
