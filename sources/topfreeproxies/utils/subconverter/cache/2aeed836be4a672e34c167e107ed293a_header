@@ -1,0 +1,23 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Sat, 03 May 2025 14:11:47 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=600
+Location: https://basic.now61.com/api/v3/slave/source/0/dXBsb2Fkcy8yMDI1MDQvMTYvNTc1X2R5eTUuOS55YW1sX0o3UTNQZGVKLnlhbWw/test.Tg@dingyue_Center.yaml?sign=uZoP7jwMOStv97njoJz8PsfwQ6TXX8PrDMHjOp9DYr0%3D%3A1746282107
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 03 May 2025 14:11:48 GMT
+Content-Type: application/x-yaml
+Content-Length: 55171
+Connection: keep-alive
+Accept-Ranges: bytes
+Cache-Control: private, no-cache
+Last-Modified: Sat, 03 May 2025 14:11:48 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+

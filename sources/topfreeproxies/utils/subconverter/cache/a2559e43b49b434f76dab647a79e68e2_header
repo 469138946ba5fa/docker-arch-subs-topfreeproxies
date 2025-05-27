@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: PUT, GET, POST, DELETE, HEAD, OPTIONS, PATCH
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 03 May 2025 14:12:16 GMT
+Server: flex
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Cache: BYPASS
+X-Powered-By: PHP/8.2.28
+Transfer-Encoding: chunked
+

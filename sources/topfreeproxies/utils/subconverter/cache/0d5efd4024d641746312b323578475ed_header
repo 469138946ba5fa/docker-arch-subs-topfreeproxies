@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 18 Apr 2025 11:11:25 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Last-Modified: Thu, 17 Apr 2025 16:50:04 GMT
+Vary: Accept-Encoding
+Etag: W/"6801313c-1e288"
+Strict-Transport-Security: max-age=31536000
+Cf-Cache-Status: DYNAMIC
+CF-RAY: 9323b8a12e2c5695-OSL
+alt-svc: h3=":443"; ma=86400
+

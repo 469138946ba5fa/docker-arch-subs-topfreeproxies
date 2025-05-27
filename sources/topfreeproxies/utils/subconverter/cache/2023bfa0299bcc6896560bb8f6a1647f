@@ -1,0 +1,924 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
+proxies:
+  - name: "Kathmandu Pro 1"
+    type: "trojan"
+    server: "communal-snipe.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "communal-snipe.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Mumbai  Pro 4"
+    type: "trojan"
+    server: "fun-panther.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "fun-panther.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Virginia Pro 22"
+    type: "trojan"
+    server: "civil-ferret.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "civil-ferret.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Tokyo  15"
+    type: "trojan"
+    server: "upright-dingo.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "upright-dingo.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Paris Pro 2"
+    type: "trojan"
+    server: "fun-panda.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "fun-panda.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Saint Peterburg Pro 2"
+    type: "trojan"
+    server: "just-wahoo.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "just-wahoo.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "London  15"
+    type: "trojan"
+    server: "talented-piranha.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "talented-piranha.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Hong Kong Pro 2"
+    type: "trojan"
+    server: "ready-urchin.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "ready-urchin.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Ashburn  32"
+    type: "trojan"
+    server: "set-elf.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "set-elf.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Riga Pro 1"
+    type: "trojan"
+    server: "simple-robin.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "simple-robin.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Amsterdam 8"
+    type: "trojan"
+    server: "pleased-rabbit.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "pleased-rabbit.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "New York Pro 8"
+    type: "trojan"
+    server: "eager-bird.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "eager-bird.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Sydney Pro 2"
+    type: "trojan"
+    server: "closing-oriole.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "closing-oriole.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Mumbai  8"
+    type: "trojan"
+    server: "oriented-swift.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "oriented-swift.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Singapore Pro 1"
+    type: "trojan"
+    server: "infinite-goshawk.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "infinite-goshawk.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Stockholm  Pro 4"
+    type: "trojan"
+    server: "accurate-dolphin.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "accurate-dolphin.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Falkenstein Pro 4"
+    type: "trojan"
+    server: "fancy-stallion.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "fancy-stallion.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Amsterdam  14"
+    type: "trojan"
+    server: "enabled-foal.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "enabled-foal.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Kuala Lumpur Pro 1"
+    type: "trojan"
+    server: "precious-scorpion.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "precious-scorpion.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Hangzhou 1"
+    type: "trojan"
+    server: "fond-meerkat.lygames.cc"
+    port: 443
+    password: "3747000103274291200"
+    sni: "fond-meerkat.lygames.cc"
+    skip-cert-verify: false
+    udp: true
+  - name: "Sao Paulo 1"
+    type: "trojan"
+    server: "open-tarpon.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "open-tarpon.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Hong Kong 2"
+    type: "trojan"
+    server: "ready-urchin.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "ready-urchin.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Moscow Pro 3"
+    type: "trojan"
+    server: "humorous-goldfish.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "humorous-goldfish.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Singapore 33"
+    type: "trojan"
+    server: "renewing-amoeba.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "renewing-amoeba.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Frankfurt Pro 1"
+    type: "trojan"
+    server: "included-coyote.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "included-coyote.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Tokyo  Pro 15"
+    type: "trojan"
+    server: "upright-dingo.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "upright-dingo.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Seoul Pro 3"
+    type: "trojan"
+    server: "usable-stallion.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "usable-stallion.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Madrid Pro 1"
+    type: "trojan"
+    server: "allowed-killdeer.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "allowed-killdeer.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Amsterdam Pro 8"
+    type: "trojan"
+    server: "pleased-rabbit.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "pleased-rabbit.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Frankfurt  16"
+    type: "trojan"
+    server: "many-bunny.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "many-bunny.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Manama Pro 1"
+    type: "trojan"
+    server: "blessed-rattler.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "blessed-rattler.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Oregon Pro 28"
+    type: "trojan"
+    server: "artistic-haddock.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "artistic-haddock.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Tashkent 1"
+    type: "trojan"
+    server: "logical-cub.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "logical-cub.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Lagos Pro 3"
+    type: "trojan"
+    server: "simple-shrew.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "simple-shrew.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Singapore  4"
+    type: "trojan"
+    server: "internal-duckling.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "internal-duckling.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Tashkent Pro 1"
+    type: "trojan"
+    server: "logical-cub.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "logical-cub.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "London  3"
+    type: "trojan"
+    server: "wanted-ocelot.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "wanted-ocelot.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Miami Pro 37"
+    type: "trojan"
+    server: "cuddly-pug.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "cuddly-pug.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Ashburn  Pro 3"
+    type: "trojan"
+    server: "handy-maggot.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "handy-maggot.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Paris 2"
+    type: "trojan"
+    server: "fun-panda.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "fun-panda.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Mumbai Pro 1"
+    type: "trojan"
+    server: "heroic-buzzard.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "heroic-buzzard.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Mumbai  Pro 8"
+    type: "trojan"
+    server: "oriented-swift.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "oriented-swift.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "London  Pro 15"
+    type: "trojan"
+    server: "talented-piranha.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "talented-piranha.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Ashburn  3"
+    type: "trojan"
+    server: "handy-maggot.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "handy-maggot.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Singapore  Pro 4"
+    type: "trojan"
+    server: "internal-duckling.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "internal-duckling.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Hangzhou Pro 1"
+    type: "trojan"
+    server: "fond-meerkat.lygames.cc"
+    port: 443
+    password: "3747000103274291200"
+    sni: "fond-meerkat.lygames.cc"
+    skip-cert-verify: false
+    udp: true
+  - name: "Tokyo  13"
+    type: "trojan"
+    server: "blessed-gannet.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "blessed-gannet.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Taiwan Pro 1"
+    type: "trojan"
+    server: "faithful-mongrel.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "faithful-mongrel.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Los Angeles  Pro 27"
+    type: "trojan"
+    server: "modest-blowfish.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "modest-blowfish.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Frankfurt 1"
+    type: "trojan"
+    server: "included-coyote.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "included-coyote.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Sydney Pro 1"
+    type: "trojan"
+    server: "ideal-dolphin.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "ideal-dolphin.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Tokyo  Pro 7"
+    type: "trojan"
+    server: "refined-zebra.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "refined-zebra.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Warsaw Pro 1"
+    type: "trojan"
+    server: "learning-slug.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "learning-slug.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Mumbai 1"
+    type: "trojan"
+    server: "heroic-buzzard.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "heroic-buzzard.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Sydney 2"
+    type: "trojan"
+    server: "closing-oriole.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "closing-oriole.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Tokyo  Pro 13"
+    type: "trojan"
+    server: "blessed-gannet.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "blessed-gannet.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Amsterdam  Pro 6"
+    type: "trojan"
+    server: "amusing-tetra.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "amusing-tetra.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Amsterdam  6"
+    type: "trojan"
+    server: "amusing-tetra.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "amusing-tetra.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Prague Pro 2"
+    type: "trojan"
+    server: "subtle-fowl.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "subtle-fowl.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Sao Paulo Pro 1"
+    type: "trojan"
+    server: "open-tarpon.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "open-tarpon.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Paris Pro 1"
+    type: "trojan"
+    server: "oriented-chamois.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "oriented-chamois.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Fujairah Pro 1"
+    type: "trojan"
+    server: "smooth-flamingo.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "smooth-flamingo.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Paris  Pro 3"
+    type: "trojan"
+    server: "clever-grouse.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "clever-grouse.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Frankfurt  Pro 16"
+    type: "trojan"
+    server: "many-bunny.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "many-bunny.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Lagos Pro 2"
+    type: "trojan"
+    server: "electric-quetzal.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "electric-quetzal.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Ohio Pro 12"
+    type: "trojan"
+    server: "polished-polliwog.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "polished-polliwog.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Karachi Pro 2"
+    type: "trojan"
+    server: "witty-rooster.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "witty-rooster.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Riyadh Pro 1"
+    type: "trojan"
+    server: "caring-teal.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "caring-teal.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Istanbul  Pro 1"
+    type: "trojan"
+    server: "sound-lion.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "sound-lion.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Los Angeles  27"
+    type: "trojan"
+    server: "modest-blowfish.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "modest-blowfish.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Bangkok Pro 1"
+    type: "trojan"
+    server: "ideal-mollusk.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "ideal-mollusk.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Montreal Pro 4"
+    type: "trojan"
+    server: "blessed-osprey.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "blessed-osprey.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Miami Pro 6"
+    type: "trojan"
+    server: "upward-ringtail.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "upward-ringtail.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "New York 8"
+    type: "trojan"
+    server: "eager-bird.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "eager-bird.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Istanbul Pro 2"
+    type: "trojan"
+    server: "dominant-chipmunk.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "dominant-chipmunk.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Amsterdam  Pro 14"
+    type: "trojan"
+    server: "enabled-foal.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "enabled-foal.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Chicago Pro 5"
+    type: "trojan"
+    server: "optimal-ox.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "optimal-ox.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Bergamo Pro 3"
+    type: "trojan"
+    server: "enhanced-crab.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "enhanced-crab.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Singapore Pro 33"
+    type: "trojan"
+    server: "renewing-amoeba.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "renewing-amoeba.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Manila Pro 1"
+    type: "trojan"
+    server: "curious-grubworm.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "curious-grubworm.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Ireland  Pro 1"
+    type: "trojan"
+    server: "simple-starling.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "simple-starling.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "London  Pro 3"
+    type: "trojan"
+    server: "wanted-ocelot.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "wanted-ocelot.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Ashburn  Pro 32"
+    type: "trojan"
+    server: "set-elf.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "set-elf.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "New York Pro 1"
+    type: "trojan"
+    server: "ruling-treefrog.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "ruling-treefrog.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Frankfurt  Pro 11"
+    type: "trojan"
+    server: "funny-reptile.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "funny-reptile.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "Paris 1"
+    type: "trojan"
+    server: "oriented-chamois.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "oriented-chamois.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+  - name: "London Pro 2"
+    type: "trojan"
+    server: "deciding-unicorn.marlin387.pics"
+    port: 443
+    password: "3747000103274291200"
+    sni: "deciding-unicorn.marlin387.pics"
+    skip-cert-verify: false
+    udp: true
+
+proxy-groups:
+  - name: "选择节点"
+    type: select
+    proxies:
+      - "自动选择"
+      - "全球网络"
+      - "国内网络"
+      - "DIRECT"
+      - "Kathmandu Pro 1"
+      - "Mumbai  Pro 4"
+      - "Virginia Pro 22"
+      - "Tokyo  15"
+      - "Paris Pro 2"
+      - "Saint Peterburg Pro 2"
+      - "London  15"
+      - "Hong Kong Pro 2"
+      - "Ashburn  32"
+      - "Riga Pro 1"
+      - "Amsterdam 8"
+      - "New York Pro 8"
+      - "Sydney Pro 2"
+      - "Mumbai  8"
+      - "Singapore Pro 1"
+      - "Stockholm  Pro 4"
+      - "Falkenstein Pro 4"
+      - "Amsterdam  14"
+      - "Kuala Lumpur Pro 1"
+      - "Hangzhou 1"
+      - "Sao Paulo 1"
+      - "Hong Kong 2"
+      - "Moscow Pro 3"
+      - "Singapore 33"
+      - "Frankfurt Pro 1"
+      - "Tokyo  Pro 15"
+      - "Seoul Pro 3"
+      - "Madrid Pro 1"
+      - "Amsterdam Pro 8"
+      - "Frankfurt  16"
+      - "Manama Pro 1"
+      - "Oregon Pro 28"
+      - "Tashkent 1"
+      - "Lagos Pro 3"
+      - "Singapore  4"
+      - "Tashkent Pro 1"
+      - "London  3"
+      - "Miami Pro 37"
+      - "Ashburn  Pro 3"
+      - "Paris 2"
+      - "Mumbai Pro 1"
+      - "Mumbai  Pro 8"
+      - "London  Pro 15"
+      - "Ashburn  3"
+      - "Singapore  Pro 4"
+      - "Hangzhou Pro 1"
+      - "Tokyo  13"
+      - "Taiwan Pro 1"
+      - "Los Angeles  Pro 27"
+      - "Frankfurt 1"
+      - "Sydney Pro 1"
+      - "Tokyo  Pro 7"
+      - "Warsaw Pro 1"
+      - "Mumbai 1"
+      - "Sydney 2"
+      - "Tokyo  Pro 13"
+      - "Amsterdam  Pro 6"
+      - "Amsterdam  6"
+      - "Prague Pro 2"
+      - "Sao Paulo Pro 1"
+      - "Paris Pro 1"
+      - "Fujairah Pro 1"
+      - "Paris  Pro 3"
+      - "Frankfurt  Pro 16"
+      - "Lagos Pro 2"
+      - "Ohio Pro 12"
+      - "Karachi Pro 2"
+      - "Riyadh Pro 1"
+      - "Istanbul  Pro 1"
+      - "Los Angeles  27"
+      - "Bangkok Pro 1"
+      - "Montreal Pro 4"
+      - "Miami Pro 6"
+      - "New York 8"
+      - "Istanbul Pro 2"
+      - "Amsterdam  Pro 14"
+      - "Chicago Pro 5"
+      - "Bergamo Pro 3"
+      - "Singapore Pro 33"
+      - "Manila Pro 1"
+      - "Ireland  Pro 1"
+      - "London  Pro 3"
+      - "Ashburn  Pro 32"
+      - "New York Pro 1"
+      - "Frankfurt  Pro 11"
+      - "Paris 1"
+      - "London Pro 2"
+
+  - name: "自动选择"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "Kathmandu Pro 1"
+      - "Mumbai  Pro 4"
+      - "Virginia Pro 22"
+      - "Tokyo  15"
+      - "Paris Pro 2"
+      - "Saint Peterburg Pro 2"
+      - "London  15"
+      - "Hong Kong Pro 2"
+      - "Ashburn  32"
+      - "Riga Pro 1"
+      - "Amsterdam 8"
+      - "New York Pro 8"
+      - "Sydney Pro 2"
+      - "Mumbai  8"
+      - "Singapore Pro 1"
+      - "Stockholm  Pro 4"
+      - "Falkenstein Pro 4"
+      - "Amsterdam  14"
+      - "Kuala Lumpur Pro 1"
+      - "Hangzhou 1"
+      - "Sao Paulo 1"
+      - "Hong Kong 2"
+      - "Moscow Pro 3"
+      - "Singapore 33"
+      - "Frankfurt Pro 1"
+      - "Tokyo  Pro 15"
+      - "Seoul Pro 3"
+      - "Madrid Pro 1"
+      - "Amsterdam Pro 8"
+      - "Frankfurt  16"
+      - "Manama Pro 1"
+      - "Oregon Pro 28"
+      - "Tashkent 1"
+      - "Lagos Pro 3"
+      - "Singapore  4"
+      - "Tashkent Pro 1"
+      - "London  3"
+      - "Miami Pro 37"
+      - "Ashburn  Pro 3"
+      - "Paris 2"
+      - "Mumbai Pro 1"
+      - "Mumbai  Pro 8"
+      - "London  Pro 15"
+      - "Ashburn  3"
+      - "Singapore  Pro 4"
+      - "Hangzhou Pro 1"
+      - "Tokyo  13"
+      - "Taiwan Pro 1"
+      - "Los Angeles  Pro 27"
+      - "Frankfurt 1"
+      - "Sydney Pro 1"
+      - "Tokyo  Pro 7"
+      - "Warsaw Pro 1"
+      - "Mumbai 1"
+      - "Sydney 2"
+      - "Tokyo  Pro 13"
+      - "Amsterdam  Pro 6"
+      - "Amsterdam  6"
+      - "Prague Pro 2"
+      - "Sao Paulo Pro 1"
+      - "Paris Pro 1"
+      - "Fujairah Pro 1"
+      - "Paris  Pro 3"
+      - "Frankfurt  Pro 16"
+      - "Lagos Pro 2"
+      - "Ohio Pro 12"
+      - "Karachi Pro 2"
+      - "Riyadh Pro 1"
+      - "Istanbul  Pro 1"
+      - "Los Angeles  27"
+      - "Bangkok Pro 1"
+      - "Montreal Pro 4"
+      - "Miami Pro 6"
+      - "New York 8"
+      - "Istanbul Pro 2"
+      - "Amsterdam  Pro 14"
+      - "Chicago Pro 5"
+      - "Bergamo Pro 3"
+      - "Singapore Pro 33"
+      - "Manila Pro 1"
+      - "Ireland  Pro 1"
+      - "London  Pro 3"
+      - "Ashburn  Pro 32"
+      - "New York Pro 1"
+      - "Frankfurt  Pro 11"
+      - "Paris 1"
+      - "London Pro 2"
+
+  - name: "全球网络"
+    type: select
+    proxies:
+      - "自动选择"
+      - "DIRECT"
+
+  - name: "国内网络"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "自动选择"
+
+rules:
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-KEYWORD,geosite:cn,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,选择节点

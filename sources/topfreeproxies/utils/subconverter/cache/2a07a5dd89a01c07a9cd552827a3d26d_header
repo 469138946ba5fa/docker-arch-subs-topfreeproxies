@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, DELETE, HEAD, OPTIONS, PATCH
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 22 Apr 2025 14:12:29 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Cache: BYPASS
+Transfer-Encoding: chunked
+

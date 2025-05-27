@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sun, 25 May 2025 14:11:22 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Last-Modified: Sat, 24 May 2025 16:50:06 GMT
+Vary: Accept-Encoding
+Etag: W/"6831f8be-1d7c"
+Strict-Transport-Security: max-age=31536000
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Kxd9E1P9Bvh%2BJWdNCKsBGIL9uAgZgkLTfzFKbe4SAumximvY50T68Jsdore9QNkXGvE%2FRfLwop91u3HLNjgdoiBY0yec6iqgkCF5Wxv0Ycorxki%2Fulw%3D"}]}
+CF-RAY: 94559f231a45e355-NRT
+alt-svc: h3=":443"; ma=86400
+

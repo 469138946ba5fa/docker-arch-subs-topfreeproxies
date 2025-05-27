@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 25 Apr 2025 23:11:19 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+x-powered-by: PHP/8.1.32
+expires: Fri, 25 Apr 2025 23:39:00 GMT
+cache-control: max-age=3600
+x-redirect-by: WordPress
+location: https://nodefree.githubrowcontent.com/2024/07/20240705.yaml
+x-litespeed-cache: hit
+platform: hostinger
+panel: hpanel
+content-security-policy: upgrade-insecure-requests
+Age: 662
+Server: hcdn
+alt-svc: h3=":443"; ma=86400
+x-hcdn-request-id: c85fc10942931ac7b8256bf62c08f4d2-nme-edge9
+x-hcdn-cache-status: HIT
+
+HTTP/1.1 200 OK
+Date: Fri, 25 Apr 2025 23:11:20 GMT
+Content-Type: application/octet-stream
+Content-Length: 196552
+Connection: keep-alive
+Server: cloudflare
+Last-Modified: Thu, 04 Jul 2024 17:32:25 GMT
+Etag: "6686dca9-2ffc8"
+Accept-Ranges: bytes
+Cf-Cache-Status: DYNAMIC
+CF-RAY: 936184d9ba812773-LAX
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Mon, 21 Apr 2025 14:17:22 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Accept-Ranges: bytes
+X-Powered-By: PHP/7.4.33
+X-Powered-By: PleskLin
+Strict-Transport-Security: max-age=6372000; includeSubdomains; preload
+Cache-Control: max-age=7200
+Cf-Cache-Status: MISS
+Last-Modified: Mon, 21 Apr 2025 14:17:22 GMT
+CF-RAY: 933d8127cbbb2a9f-LAX
+alt-svc: h3=":443"; ma=86400
+

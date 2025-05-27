@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: no-store, no-cache, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 945de205bb19eb26-SJC
+Content-Disposition: attachment; filename=Clash_1748268908.yaml
+Content-Length: 103656
+Content-Type: application/octet-stream; charset=utf-8
+Date: Mon, 26 May 2025 14:15:10 GMT
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Profile-Update-Interval: 24
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=sgms%2FRc9cw7KTA7wIIGkVDNY%2BxBF57Qc8LaZ4Fz4wa1k3KtgNxZM7QFbMNI8Fs0LXjKsHcILJHZYOjcovthJNPYfC7jLHmhUrxmyKEiJiKXoV7ZAgjCk"}]}
+Server: cloudflare
+Subscription-Userinfo: upload=5723386721; download=1177226914026; total=1181116006400; expire=1768826440
+X-Cache: BYPASS
+

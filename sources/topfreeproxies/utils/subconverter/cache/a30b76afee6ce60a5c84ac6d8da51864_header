@@ -1,0 +1,27 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 10 Apr 2025 14:11:48 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Thu, 10 Apr 2025 15:11:48 GMT
+Location: https://bento.me/freecloud
+speculation-rules: "/cdn-cgi/speculation"
+Server: cloudflare
+CF-RAY: 92e2d5e17e098965-SIN
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Age: 150763
+Cache-Control: public, max-age=0, must-revalidate
+Content-Length: 64098
+Content-Type: text/html; charset=utf-8
+Date: Tue, 08 Apr 2025 20:19:05 GMT
+Etag: "6kfawbjjqr1cv7"
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Matched-Path: /en/[handle]
+X-Powered-By: Next.js
+X-Vercel-Cache: HIT
+X-Vercel-Id: sin1::fra1::qkc67-1744294309128-a0e6fd957601
+

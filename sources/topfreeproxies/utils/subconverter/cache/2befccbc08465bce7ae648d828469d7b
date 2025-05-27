@@ -1,0 +1,428 @@
+allow-lan: true
+dns:
+  default-nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+  enable: true
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://223.6.6.6/dns-query
+  use-hosts: true
+log-level: warning
+mixed-port: 9981
+mode: rule
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 美國洛杉矶10GB
+  network: tcp
+  port: 443
+  server: e427edbe-svp0g0-sx91qv-12ncy.lab.tcpbbr.net
+  tls: true
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- name: 美國西雅圖
+  password: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: 1a71ddba-svp0g0-sx91qv-12ncy.sv.plebai.net
+  tls: true
+  type: http
+  username: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 美国加州[CUB]
+  network: tcp
+  port: 5229
+  server: 21846565-svp0g0-sx91qv-12ncy.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- name: 美国硅谷
+  port: 443
+  server: 34db3cb4-svp0g0-sx91qv-12ncy.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 硅谷HTTP
+  password: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: 34db3cb4-svp0g0-sx91qv-12ncy.sj.gotochinatown.net
+  tls: true
+  type: http
+  username: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 美國洛杉磯
+  network: ws
+  port: 443
+  server: 9db9ed6a-svp0g0-sx91qv-12ncy.la2.tcpbbr.net
+  tls: true
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+  ws-path: /
+- name: 美国测试HTTP
+  password: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: ed52bab4-svp0g0-sx91qv-12ncy.los.gotochinatown.net
+  tls: true
+  type: http
+  username: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: 美國费利蒙
+  network: ws
+  port: 8307
+  server: b1196586-svp0g0-sx91qv-12ncy.fremont.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 香港HK[CMB]
+  network: tcp
+  port: 15229
+  server: 5134fb66-svp0g0-sx91qv-12ncy.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: 香港精品
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 香港精品2
+  network: ws
+  port: 8382
+  server: 4ee2d2c0-svp0g0-sx91qv-12ncy.hkt.plebai.net
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 香港01
+  network: ws
+  port: 80
+  server: 6d0fbdb1-svp0g0-sx91qv-12ncy.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 香港02
+  network: ws
+  port: 8080
+  server: dbd43881-svp0g0-sx91qv-12ncy.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 香港03
+  network: ws
+  port: 8080
+  server: 9854ee96-svp0g0-sx91qv-12ncy.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 香港HKT03
+  network: ws
+  port: 8102
+  server: 73011e76-svp0g0-sx91qv-12ncy.wtt5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 英國[CM]
+  network: tcp
+  port: 17235
+  server: 5fb92446-svp0g0-sx91qv-12ncy.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 法国[CM]
+  network: tcp
+  port: 17235
+  server: 5fb92446-svp0g0-sx91qv-12ncy.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 日本[CM]
+  network: tcp
+  port: 17233
+  server: 5fb92446-svp0g0-sx91qv-12ncy.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 韩國[CM]
+  network: tcp
+  port: 17232
+  server: 5fb92446-svp0g0-sx91qv-12ncy.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 台湾2
+  network: ws
+  port: 80
+  server: 8ef54d5b-svp0g0-sx91qv-12ncy.tw3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  ws-headers:
+    Host: 8ef54d5b-svp0g0-sx91qv-12ncy.tw3.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡[CM]
+  network: tcp
+  port: 17231
+  server: 5fb92446-svp0g0-sx91qv-12ncy.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 印尼[CM]
+  network: tcp
+  port: 17234
+  server: 5fb92446-svp0g0-sx91qv-12ncy.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- name: 俄羅斯
+  password: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: e579377b-svp0g0-sx91qv-12ncy.ru.gotochinatown.net
+  tls: true
+  type: http
+  username: ea89ce9a-25e1-11ec-a0fc-f23c913c8d2b
+- name: 美国测试SOCKS
+  port: 443
+  server: ed52bab4-svp0g0-sx91qv-12ncy.los.gotochinatown.net
+  tls: true
+  type: socks5
+proxy-groups:
+- name: Ghelper
+  proxies:
+  - 全球智能
+  - 美國洛杉矶10GB
+  - 美國西雅圖
+  - 美国加州[CUB]
+  - 美国硅谷
+  - 硅谷HTTP
+  - 美國洛杉磯
+  - 美国测试HTTP
+  - 美國费利蒙
+  - 香港智能
+  - 香港HK[CMB]
+  - 香港精品
+  - 香港精品2
+  - 香港01
+  - 香港02
+  - 香港03
+  - 香港HKT03
+  - 英國[CM]
+  - 法国[CM]
+  - 日本[CM]
+  - 韩國[CM]
+  - 台湾2
+  - 新加坡[CM]
+  - 印尼[CM]
+  - 俄羅斯
+  - 美国测试SOCKS
+  type: select
+- interval: 7200
+  name: 全球智能
+  proxies:
+  - 美國洛杉矶10GB
+  - 美國西雅圖
+  - 美国加州[CUB]
+  - 美国硅谷
+  - 硅谷HTTP
+  - 美國洛杉磯
+  - 美国测试HTTP
+  - 美國费利蒙
+  - 香港智能
+  - 香港HK[CMB]
+  - 香港精品
+  - 香港精品2
+  - 香港01
+  - 香港02
+  - 香港03
+  - 香港HKT03
+  - 英國[CM]
+  - 法国[CM]
+  - 美国测试SOCKS
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- interval: 7200
+  name: 香港智能
+  proxies:
+  - 香港HK[CMB]
+  - 香港精品
+  - 香港精品2
+  - 香港01
+  - 香港02
+  - 香港03
+  - 香港HKT03
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+rules:
+- DOMAIN-SUFFIX,ip-api.com,DIRECT
+- DOMAIN-SUFFIX,ipip.net,DIRECT
+- DOMAIN-SUFFIX,ip138.com,DIRECT
+- DOMAIN-SUFFIX,skype.com,DIRECT
+- DOMAIN-SUFFIX,skype.comedge.skype.net,DIRECT
+- DOMAIN-SUFFIX,skypeassets.com,DIRECT
+- DOMAIN-SUFFIX,skypeforbusiness.com,DIRECT
+- DOMAIN-SUFFIX,paypal.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,airwallex.com,DIRECT
+- DOMAIN-SUFFIX,stripe.com,DIRECT
+- DOMAIN-SUFFIX,wooshpay.com,DIRECT
+- DOMAIN-SUFFIX,payssion.com,DIRECT
+- DOMAIN-SUFFIX,chrapi.com,DIRECT
+- DOMAIN-SUFFIX,firapi.com,DIRECT
+- DOMAIN-SUFFIX,gheapi.com,DIRECT
+- DOMAIN-SUFFIX,broapi.com,DIRECT
+- DOMAIN-SUFFIX,edgapi.com,DIRECT
+- DOMAIN-SUFFIX,browserapi.net,DIRECT
+- DOMAIN-SUFFIX,cnsync.com,DIRECT
+- DOMAIN-SUFFIX,on1t.com,DIRECT
+- DOMAIN-SUFFIX,chromeapi.net,DIRECT
+- DOMAIN-SUFFIX,copydesign.net,DIRECT
+- DOMAIN-SUFFIX,jy3p.com,DIRECT
+- DOMAIN-SUFFIX,p5pv.com,DIRECT
+- DOMAIN-SUFFIX,z7zi.com,DIRECT
+- DOMAIN-SUFFIX,j2ai.com,DIRECT
+- DOMAIN-SUFFIX,alrihla.net,DIRECT
+- DOMAIN-SUFFIX,sphinxsearch.net,DIRECT
+- DOMAIN-SUFFIX,skype.com,DIRECT
+- DOMAIN-SUFFIX,cdnhuawei.com,DIRECT
+- DOMAIN-SUFFIX,cdnkuaishou.com,DIRECT
+- DOMAIN-SUFFIX,chromeapi.net,DIRECT
+- DOMAIN-KEYWORD,google,Ghelper
+- DOMAIN-SUFFIX,ggpht.com,Ghelper
+- DOMAIN-SUFFIX,gmail.com,Ghelper
+- DOMAIN-SUFFIX,gvt2.com,Ghelper
+- DOMAIN-SUFFIX,gvt3.com,Ghelper
+- DOMAIN-SUFFIX,chrome.com,Ghelper
+- DOMAIN-SUFFIX,wikipedia.org,Ghelper
+- DOMAIN-SUFFIX,wikimedia.org,Ghelper
+- DOMAIN-SUFFIX,appspot.com,Ghelper
+- DOMAIN-SUFFIX,android.com,Ghelper
+- DOMAIN-SUFFIX,github.com,Ghelper
+- DOMAIN-SUFFIX,gitbook.com,Ghelper
+- DOMAIN-SUFFIX,kaggle.com,Ghelper
+- DOMAIN-SUFFIX,arxiv.org,Ghelper
+- DOMAIN-SUFFIX,wiktionary.org,Ghelper
+- DOMAIN-SUFFIX,blogger.com,Ghelper
+- DOMAIN-KEYWORD,google,Ghelper
+- DOMAIN-KEYWORD,youtube,Ghelper
+- DOMAIN-SUFFIX,ggpht.com,Ghelper
+- DOMAIN-SUFFIX,gmail.com,Ghelper
+- DOMAIN-SUFFIX,gvt2.com,Ghelper
+- DOMAIN-SUFFIX,gvt3.com,Ghelper
+- DOMAIN-SUFFIX,chrome.com,Ghelper
+- DOMAIN-SUFFIX,wikipedia.org,Ghelper
+- DOMAIN-SUFFIX,wikimedia.org,Ghelper
+- DOMAIN-SUFFIX,appspot.com,Ghelper
+- DOMAIN-SUFFIX,android.com,Ghelper
+- DOMAIN-SUFFIX,github.com,Ghelper
+- DOMAIN-SUFFIX,gitbook.com,Ghelper
+- DOMAIN-SUFFIX,kaggle.com,Ghelper
+- DOMAIN-SUFFIX,arxiv.org,Ghelper
+- DOMAIN-SUFFIX,wiktionary.org,Ghelper
+- DOMAIN-SUFFIX,blogger.com,Ghelper
+- DOMAIN-SUFFIX,youtu.be,Ghelper
+- DOMAIN-SUFFIX,ytimg.com,Ghelper
+- DOMAIN-SUFFIX,youtube.com,Ghelper
+- DOMAIN-SUFFIX,instagram.com,Ghelper
+- DOMAIN-SUFFIX,twitter.com,Ghelper
+- DOMAIN-SUFFIX,t.co,Ghelper
+- DOMAIN-SUFFIX,facebook.com,Ghelper
+- DOMAIN-SUFFIX,telegram.org,Ghelper
+- DOMAIN-SUFFIX,whatsapp.com,Ghelper
+- DOMAIN-SUFFIX,whatsapp.net,Ghelper
+- DOMAIN-SUFFIX,linkedin.com,Ghelper
+- DOMAIN-SUFFIX,licdn.com,Ghelper
+- DOMAIN-SUFFIX,trkn.us,Ghelper
+- DOMAIN-SUFFIX,cedexis.com,Ghelper
+- DOMAIN-SUFFIX,openai.com,Ghelper
+- DOMAIN-SUFFIX,auth0.com,Ghelper
+- DOMAIN-SUFFIX,featuregates.org,Ghelper
+- DOMAIN-SUFFIX,statsigapi.net,Ghelper
+- DOMAIN-SUFFIX,intercom.io,Ghelper
+- DOMAIN-SUFFIX,intercomcdn.com,Ghelper
+- DOMAIN-SUFFIX,sentry.io,Ghelper
+- DOMAIN-SUFFIX,sentry.dev,Ghelper
+- DOMAIN-SUFFIX,oaistatic.com,Ghelper
+- DOMAIN-SUFFIX,oaiusercontent.com,Ghelper
+- DOMAIN-SUFFIX,chatgpt.com,Ghelper
+- DOMAIN-SUFFIX,chatgpt-async-webps-prod-southcentralus-6.webpubsub.azure.com,Ghelper
+- DOMAIN-SUFFIX,claude.ai,Ghelper
+- DOMAIN-SUFFIX,anthropic.com,Ghelper
+- DOMAIN-SUFFIX,intercomcdn.com,Ghelper
+- DOMAIN-SUFFIX,intercom.io,Ghelper
+- DOMAIN-SUFFIX,bing.com,Ghelper
+- DOMAIN-SUFFIX,microsoftonline.com,Ghelper
+- DOMAIN-SUFFIX,live.com,Ghelper
+- DOMAIN-SUFFIX,msecnd.net,Ghelper
+- DOMAIN-SUFFIX,msn.com,Ghelper
+- DOMAIN-SUFFIX,bingapis.com,Ghelper
+- DOMAIN-SUFFIX,bing.net,Ghelper
+- DOMAIN-SUFFIX,windows.com,Ghelper
+- DOMAIN-SUFFIX,microsoft.com,Ghelper
+- DOMAIN-SUFFIX,linkedin.com,Ghelper
+- DOMAIN-SUFFIX,licdn.com,Ghelper
+- DOMAIN-SUFFIX,trkn.us,Ghelper
+- DOMAIN-SUFFIX,cedexis.com,Ghelper
+- GEOIP,CN,DIRECT
+- MATCH, Ghelper

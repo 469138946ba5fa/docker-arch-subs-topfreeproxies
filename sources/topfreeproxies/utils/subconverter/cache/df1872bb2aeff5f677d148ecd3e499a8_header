@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Cache-Control: no-cache
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 04 Apr 2025 14:27:51 GMT
+Server: nginx
+Vary: Accept-Encoding
+X-Cache: BYPASS
+Transfer-Encoding: chunked
+

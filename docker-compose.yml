@@ -1,0 +1,34 @@
+services:
+  subs_topfreeproxies_service:
+    build:
+      context: ${BUILD_CONTEXT}                   # 构建上下文，来自 .env
+    command:                                      # 容器启动命令，来自 .env
+      - "${START_COMMAND}"
+      - "${START_OPTION}"
+      - "${START_SCRIPT}"
+    platform: ${PLATFORM}                         # 平台架构，来自 .env
+    container_name: ${CONTAINER_TOPFREEPROXIES}   # 容器名称，来自 .env
+    environment:                                  # 代理环境变量，来自 .env
+      - HTTP_PROXY=${PROXY_HTTP}
+      - HTTPS_PROXY=${PROXY_HTTPS}
+      - ALL_PROXY=${PROXY_ALL}
+      - NO_PROXY=${PROXY_NO}
+      - http_proxy=${PROXY_HTTP}
+      - https_proxy=${PROXY_HTTPS}
+      - all_proxy=${PROXY_ALL}
+      - no_proxy=${PROXY_NO}
+    image: ${IMAGE_TOPFREEPROXIES}                # 镜像名称，来自 .env
+    privileged: ${PRIVILEGED}                     # 特权模式，来自 .env
+    restart: ${RESTART_POLICY}                    # 重启策略，来自 .env
+    logging:                                      # 日志配置，来自 .env
+      driver: ${LOGGING_DRIVER}
+      options:
+        max-size: ${LOG_MAX_SIZE}
+    volumes:                                      # 挂载路径，来自 .env
+      - ${TOPFREEPROXIES_DATA}
+    networks:
+      - network
+
+networks:
+  network:
+    driver: ${NETWORK_TYPE}                       # 网络配置，来自 .env

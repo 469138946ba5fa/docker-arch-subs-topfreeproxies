@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 13 Apr 2025 23:10:19 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250413.yaml
+expires: Sun, 13 Apr 2025 23:10:18 GMT
+Cache-Control: no-cache
+Cache-Control: max-age=800
+x-xss-protection: 1
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=cxV1eTRsAFnGdVKbrj7Wu7KcK9sDy5qtuBqtca7dMHjB91amHYvKX6gOOyeODiqldWwUrmtcJhHcPB79cZQZc%2BTuEjM4zsr1Y20tO6AHxrk6OdFQy4wQM1MLi2uK5tbltQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 92fea2d9a9cd9f89-SIN
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=1494&min_rtt=1489&rtt_var=424&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2840&recv_bytes=781&delivery_rate=1921698&cwnd=251&unsent_bytes=0&cid=c5b01cd75b729cf5&ts=737&x=0"
+
+HTTP/1.1 200 OK
+Date: Sun, 13 Apr 2025 23:10:20 GMT
+Content-Type: application/octet-stream
+Content-Length: 198975
+Connection: keep-alive
+last-modified: Sun, 13 Apr 2025 05:00:05 GMT
+etag: "67fb44d5-3093f"
+expires: Sun, 13 Apr 2025 23:10:19 GMT
+Cache-Control: no-cache
+Cache-Control: max-age=800
+x-xss-protection: 1
+accept-ranges: bytes
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=I88dkuTj67WlTDOOoa9iL5PTSJ4zKfPtTvRJ2M0CXaOOvNU4gzYns4S1jq%2FujJat7QxQRyLOKQ%2F7CrLH6f9BACoWzPXfsaonbkam%2BV7RWn4olziXlBiIBjVlhGnaFhM0nattoNbVg7OirlatkVIuFLM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 92fea2df3bca9fa4-SIN
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=1468&min_rtt=1422&rtt_var=492&sent=6&recv=7&lost=0&retrans=0&sent_bytes=2839&recv_bytes=789&delivery_rate=2839887&cwnd=254&unsent_bytes=0&cid=30a0e0dfdb06df69&ts=896&x=0"
+

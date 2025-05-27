@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Thu, 10 Apr 2025 05:11:17 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 38420
+Connection: keep-alive
+Server: cloudflare
+Content-Security-Policy: img-src 'self' camo.paste.gg; base-uri 'none'; font-src 'self'; frame-ancestors 'none'; block-all-mixed-content; require-sri-for script style; object-src 'none'; script-src 'self'; style-src 'self'; default-src 'self'
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Cf-Cache-Status: DYNAMIC
+Set-Cookie: session=krLL8mcWMaX4MLFB2Is9AqqSd0MngzGc2QywHLSCLr4ikUvc8zTsyUxcBzvbfWVqprc1SAEQxXuEu1M2; HttpOnly; SameSite=Lax; Secure; Path=/; Max-Age=2592000; Expires=Thu, 17 Apr 2025 05:11:17 GMT
+CF-RAY: 92dfbe1c7db56041-SIN
+alt-svc: h3=":443"; ma=86400
+

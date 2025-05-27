@@ -1,0 +1,407 @@
+allow-lan: true
+dns:
+  default-nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+  enable: true
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://223.6.6.6/dns-query
+  use-hosts: true
+log-level: warning
+mixed-port: 9981
+mode: rule
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 专线 | 洛杉矶
+  network: tcp
+  port: 3105
+  server: 9210ba0e-svpmo0-sx4cmd-cdfn.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 专线 | 硅谷
+  network: tcp
+  port: 3693
+  server: f9c93aa3-svpmo0-sx4cmd-cdfn.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 专线 | 西雅图
+  network: tcp
+  port: 3695
+  server: abd7c783-svpmo0-sx4cmd-cdfn.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 专线 | 台湾
+  network: tcp
+  port: 3687
+  server: f9c93aa3-svpmo0-sx4cmd-cdfn.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 专线 | 台湾二号
+  network: tcp
+  port: 3690
+  server: abd7c783-svpmo0-sx4cmd-cdfn.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 专线 | 香港
+  network: tcp
+  port: 4136
+  server: c56ce550-svpmo0-sx4cmd-cdfn.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 专线 | 香港二号
+  network: tcp
+  port: 4138
+  server: 9210ba0e-svpmo0-sx4cmd-cdfn.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 专线 | 东京
+  network: tcp
+  port: 3684
+  server: c56ce550-svpmo0-sx4cmd-cdfn.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 专线 | 东京二号
+  network: tcp
+  port: 4151
+  server: 9210ba0e-svpmo0-sx4cmd-cdfn.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 专线 | 大阪
+  network: tcp
+  port: 4134
+  server: c56ce550-svpmo0-sx4cmd-cdfn.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 专线 | 新加坡
+  network: tcp
+  port: 3683
+  server: abd7c783-svpmo0-sx4cmd-cdfn.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 专线 | 新加坡二号
+  network: tcp
+  port: 3681
+  server: 9210ba0e-svpmo0-sx4cmd-cdfn.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 专线 | 新加坡三号
+  network: tcp
+  port: 4135
+  server: c56ce550-svpmo0-sx4cmd-cdfn.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 专线 | 新加坡四号
+  network: tcp
+  port: 4137
+  server: 9210ba0e-svpmo0-sx4cmd-cdfn.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱 专线 | 荷兰
+  network: tcp
+  port: 3686
+  server: f9c93aa3-svpmo0-sx4cmd-cdfn.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 专线 | 法国
+  network: tcp
+  port: 3691
+  server: abd7c783-svpmo0-sx4cmd-cdfn.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 专线 | 德国
+  network: tcp
+  port: 3102
+  server: 9210ba0e-svpmo0-sx4cmd-cdfn.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 专线 | 韩国
+  network: tcp
+  port: 3689
+  server: c56ce550-svpmo0-sx4cmd-cdfn.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 0
+  cipher: auto
+  name: 🇧🇷 专线 | 巴西
+  network: tcp
+  port: 3688
+  server: abd7c783-svpmo0-sx4cmd-cdfn.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US Los Angeles
+  network: tcp
+  port: 426
+  server: 4c88e9eb-svpmo0-sx4cmd-cdfn.los.west.wctype.com
+  tls: true
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 Hongkong 3
+  network: ws
+  port: 455
+  server: b5cae9f7-svpmo0-sx4cmd-cdfn.hkt.east.wctype.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  ws-headers:
+    Host: a605477178.m.ctrip.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 🇸🇬 Singapore
+  network: ws
+  port: 4157
+  server: afa2749c-svpmo0-sx4cmd-cdfn.east.sgp2.189ti.com
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  ws-headers:
+    Host: webrtcpunch.video.qq.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 🇮🇩 Indonesia
+  network: tcp
+  port: 443
+  server: 4cc95e7e-svpmo0-sx4cmd-cdfn.lnd-id.189ti.com
+  tls: true
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US Fremont
+  network: tcp
+  port: 455
+  server: 759583d6-svpmo0-sx4cmd-cdfn.fmt2-us.sghuawei.com
+  tls: true
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US Silicon Valley
+  network: tcp
+  port: 5443
+  server: b1f077f5-svpmo0-sx4cmd-cdfn.fmt-us.sghuawei.com
+  tls: true
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 JP Tokyo
+  network: tcp
+  port: 3443
+  server: 5177196f-svpmo0-sx4cmd-cdfn.tky02.east.189ti.com
+  tls: true
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 2
+  cipher: auto
+  name: 🇲🇾 Malaysia
+  network: tcp
+  port: 443
+  server: 0a2d58eb-svpmo0-sx4cmd-cdfn.ltn-my.189ti.com
+  tls: true
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+- alterId: 2
+  cipher: auto
+  name: 🇬🇧 UK London
+  network: tcp
+  port: 458
+  server: bf465c13-svpmo0-sx4cmd-cdfn.ldn.west.yxlmgs.com
+  tls: true
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+proxy-groups:
+- name: ❇️Manual Select
+  proxies:
+  - 🌐 Auto Select
+  - 🇺🇸 专线 | 洛杉矶
+  - 🇺🇸 专线 | 硅谷
+  - 🇺🇸 专线 | 西雅图
+  - 🇨🇳 专线 | 台湾
+  - 🇨🇳 专线 | 台湾二号
+  - 🇭🇰 专线 | 香港
+  - 🇭🇰 专线 | 香港二号
+  - 🇯🇵 专线 | 东京
+  - 🇯🇵 专线 | 东京二号
+  - 🇯🇵 专线 | 大阪
+  - 🇸🇬 专线 | 新加坡
+  - 🇸🇬 专线 | 新加坡二号
+  - 🇸🇬 专线 | 新加坡三号
+  - 🇸🇬 专线 | 新加坡四号
+  - 🇳🇱 专线 | 荷兰
+  - 🇫🇷 专线 | 法国
+  - 🇩🇪 专线 | 德国
+  - 🇰🇷 专线 | 韩国
+  - 🇧🇷 专线 | 巴西
+  - 🇺🇸 US Los Angeles
+  - 🇭🇰 Hongkong 3
+  - 🇸🇬 Singapore
+  - 🇮🇩 Indonesia
+  - 🇺🇸 US Fremont
+  - 🇺🇸 US Silicon Valley
+  - 🇯🇵 JP Tokyo
+  - 🇲🇾 Malaysia
+  - 🇬🇧 UK London
+  type: select
+- interval: 1800
+  name: 🌐 Auto Select
+  proxies:
+  - 🇺🇸 专线 | 洛杉矶
+  - 🇺🇸 专线 | 硅谷
+  - 🇨🇳 专线 | 台湾
+  - 🇨🇳 专线 | 台湾二号
+  - 🇭🇰 专线 | 香港
+  - 🇭🇰 专线 | 香港二号
+  - 🇯🇵 专线 | 东京
+  - 🇯🇵 专线 | 东京二号
+  - 🇯🇵 专线 | 大阪
+  - 🇸🇬 专线 | 新加坡
+  - 🇸🇬 专线 | 新加坡二号
+  - 🇸🇬 专线 | 新加坡三号
+  - 🇸🇬 专线 | 新加坡四号
+  - 🇳🇱 专线 | 荷兰
+  - 🇩🇪 专线 | 德国
+  - 🇰🇷 专线 | 韩国
+  - 🇧🇷 专线 | 巴西
+  - 🇺🇸 US Los Angeles
+  - 🇭🇰 Hongkong 3
+  - 🇸🇬 Singapore
+  - 🇮🇩 Indonesia
+  - 🇺🇸 US Fremont
+  - 🇺🇸 US Silicon Valley
+  - 🇯🇵 JP Tokyo
+  - 🇲🇾 Malaysia
+  - 🇬🇧 UK London
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+rules:
+- DOMAIN-SUFFIX,msn.cn,DIRECT
+- DOMAIN-SUFFIX,cn.bing.com,DIRECT
+- DOMAIN-SUFFIX,cn.mm.bing.net,DIRECT
+- DOMAIN-SUFFIX,ip138.com,DIRECT
+- DOMAIN-SUFFIX,alipayplus.com,DIRECT
+- DOMAIN-SUFFIX,wooshpay.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,95516.com,DIRECT
+- DOMAIN-SUFFIX,paypal.com,DIRECT
+- DOMAIN-SUFFIX,stripe.com,DIRECT
+- DOMAIN-SUFFIX,payssion.com,DIRECT
+- DOMAIN-SUFFIX,136data.com,DIRECT
+- DOMAIN-SUFFIX,4fk9.com,DIRECT
+- DOMAIN-SUFFIX,taintedge.com,DIRECT
+- DOMAIN-SUFFIX,y62i.com,DIRECT
+- DOMAIN-SUFFIX,fromusaforchn.com,DIRECT
+- DOMAIN-SUFFIX,webstoreconsole.com,DIRECT
+- DOMAIN-SUFFIX,monsnssdk.com,DIRECT
+- DOMAIN-SUFFIX,cdnfeishu.com,DIRECT
+- DOMAIN-SUFFIX,illustr.ai,DIRECT
+- DOMAIN-SUFFIX,omniwide.meida,DIRECT
+- DOMAIN-SUFFIX,jegocloud.net,❇️Manual Select
+- DOMAIN-SUFFIX,google.com,❇️Manual Select
+- DOMAIN-SUFFIX,google.com.hk,❇️Manual Select
+- DOMAIN-SUFFIX,google.com.tw,❇️Manual Select
+- DOMAIN-SUFFIX,google.co.jp,❇️Manual Select
+- DOMAIN-SUFFIX,gstatic.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleusercontent.com,❇️Manual Select
+- DOMAIN-SUFFIX,gvt2.com,❇️Manual Select
+- DOMAIN-SUFFIX,gvt3.com,❇️Manual Select
+- DOMAIN-SUFFIX,ggpht.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleapis.com,❇️Manual Select
+- DOMAIN-SUFFIX,gmail.com,❇️Manual Select
+- DOMAIN-SUFFIX,chrome.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleadservices.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleusercontent.com,❇️Manual Select
+- DOMAIN-SUFFIX,googletagservices.com,❇️Manual Select
+- DOMAIN-SUFFIX,googlesyndication.com,❇️Manual Select
+- DOMAIN-SUFFIX,googlesource.com,❇️Manual Select
+- DOMAIN-SUFFIX,wikipedia.org,❇️Manual Select
+- DOMAIN-SUFFIX,wikimedia.org,❇️Manual Select
+- DOMAIN-SUFFIX,mediawiki.org,❇️Manual Select
+- DOMAIN-SUFFIX,googleblog.com,❇️Manual Select
+- DOMAIN-SUFFIX,appspot.com,❇️Manual Select
+- DOMAIN-SUFFIX,android.com,❇️Manual Select
+- DOMAIN-SUFFIX,googlegroups.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleusercontent.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleadservices.com,❇️Manual Select
+- DOMAIN-SUFFIX,jego.pro,❇️Manual Select
+- DOMAIN-SUFFIX,jegocloud.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtube.com,❇️Manual Select
+- DOMAIN-SUFFIX,withyoutube.com,❇️Manual Select
+- DOMAIN-SUFFIX,ytimg.com,❇️Manual Select
+- DOMAIN-SUFFIX,googlevideo.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtu.be,❇️Manual Select
+- DOMAIN-SUFFIX,youtubeeducation.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtubegaming.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtubekids.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtube-nocookie.com,❇️Manual Select
+- DOMAIN-SUFFIX,yt.be,❇️Manual Select
+- DOMAIN-SUFFIX,youtubei.googleapis.com,❇️Manual Select
+- DOMAIN-SUFFIX,yt3.ggpht.com,❇️Manual Select
+- DOMAIN-SUFFIX,instagram.com,❇️Manual Select
+- DOMAIN-SUFFIX,twitter.com,❇️Manual Select
+- DOMAIN-SUFFIX,facebook.com,❇️Manual Select
+- DOMAIN-SUFFIX,fbcdn.net,❇️Manual Select
+- GEOIP,CN,DIRECT
+- MATCH, ❇️Manual Select

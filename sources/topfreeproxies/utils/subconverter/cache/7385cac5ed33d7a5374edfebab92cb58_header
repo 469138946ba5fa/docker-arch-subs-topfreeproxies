@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 44836
+Server: GitHub.com
+Content-Type: text/yaml
+permissions-policy: interest-cohort=()
+Last-Modified: Fri, 23 May 2025 01:11:00 GMT
+Access-Control-Allow-Origin: *
+ETag: "682fcb24-af24"
+expires: Fri, 23 May 2025 08:26:49 GMT
+Cache-Control: max-age=600
+x-proxy-cache: MISS
+X-GitHub-Request-Id: 8711:73250:1204D25:1231740:68302EF1
+Accept-Ranges: bytes
+Age: 0
+Date: Fri, 23 May 2025 11:16:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsss1830025-SIN
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747998972.228008,VS0,VE237
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 8f3d87de741f73c95c6c1419020b11173189ed31
+

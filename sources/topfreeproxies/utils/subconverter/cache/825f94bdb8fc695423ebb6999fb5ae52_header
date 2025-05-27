@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 05 Apr 2025 11:11:03 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250405.txt
+Expires: Sat, 05 Apr 2025 11:11:01 GMT
+Cache-Control: no-cache
+Cache-Control: max-age=800
+X-Xss-Protection: 1
+Cf-Cache-Status: DYNAMIC
+CF-RAY: 92b89a390ca62f7c-LAX
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 05 Apr 2025 11:11:04 GMT
+Content-Type: text/plain
+Content-Length: 4076
+Connection: keep-alive
+Server: cloudflare
+Last-Modified: Sat, 05 Apr 2025 05:00:04 GMT
+Etag: "67f0b8d4-fec"
+Expires: Sat, 05 Apr 2025 11:11:03 GMT
+Cache-Control: no-cache
+Cache-Control: max-age=800
+X-Xss-Protection: 1
+Accept-Ranges: bytes
+Cf-Cache-Status: DYNAMIC
+CF-RAY: 92b89a42dbe108a7-LAX
+alt-svc: h3=":443"; ma=86400
+
