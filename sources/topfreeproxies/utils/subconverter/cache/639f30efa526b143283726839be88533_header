@@ -1,15 +1,15 @@
 HTTP/1.1 200 OK
-Date: Tue, 27 May 2025 17:13:15 GMT
+Date: Tue, 27 May 2025 19:59:22 GMT
 Content-Type: text/plain; charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Cache-Control: no-cache, private
 CF-Cache-Status: BYPASS
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=MkfLUK3EGMjKUkUPxOsr3HRo0RDu2482npfFE79qVEBSTJSHbLJvHaxzVWsBExN8Rwp1YAS4lbkmtyfoL0%2FXBlPlUrhLEEiwwGc6qYCsyhxtGFCZIai%2BF1CDRvf5V0kr5SOcwQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=E3gzhzDE5RyfeimZilstwwhOqnpgicbvKFe8aco6I38WognAKLbA2lkTS94du5Ys6qQURXRL3dgHhWPduphcisBIysrFxM51V3ig7fWJyzNvysdhIM8YjoYA0aZ0Sr09jBPIhQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 speculation-rules: "/cdn-cgi/speculation"
 Server: cloudflare
-CF-RAY: 946724485e7f8cac-NRT
+CF-RAY: 946817a32bbc80d2-NRT
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=1384&min_rtt=1384&rtt_var=692&sent=1&recv=3&lost=0&retrans=0&sent_bytes=0&recv_bytes=239&delivery_rate=0&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=1277&min_rtt=1277&rtt_var=638&sent=1&recv=3&lost=0&retrans=0&sent_bytes=0&recv_bytes=239&delivery_rate=0&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
 

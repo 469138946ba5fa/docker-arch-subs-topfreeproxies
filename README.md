@@ -586,11 +586,23 @@ analyze_size.sh after-clean after-install
 ```plaintext
 docker-compose exec -it subs_topfreeproxies_service analyze_size.sh after-install before-install
 [信息] 快照 after-install 已存在，跳过采集。如需更新请使用 --force 参数。
-=== [after-install] 镜像体积快照 2025-05-27 20:48:12 ===
+=== [after-install] 镜像体积快照 2025-05-28 01:47:48 ===
 
 /root/.bashrc	3KB
 /root/.profile	210b
 /root/.ssh	0b
+/topfreeproxies/Eternity.txt	76KB
+/topfreeproxies/Eternity.yaml	4MB
+/topfreeproxies/mihomo_config.yml	800b
+/topfreeproxies/mihomo-linux	29MB
+/topfreeproxies/mihomo-linux-amd64	31MB
+/topfreeproxies/mihomo-linux-arm64	29MB
+/topfreeproxies/proxychains.conf	171b
+/topfreeproxies/README.md	66KB
+/topfreeproxies/start.sh	3KB
+/topfreeproxies/sub	3MB
+/topfreeproxies/update	0b
+/topfreeproxies/utils	335MB
 /usr/local/bin	20KB
 /usr/local/etc	0b
 /usr/local/games	0b
@@ -616,6 +628,18 @@ docker-compose exec -it subs_topfreeproxies_service analyze_size.sh after-instal
 /root/.bashrc       	3KB ->(+78b)
 /root/.profile      	210b ->(+78b)
 /root/.ssh          	0b ->(0b)
+/topfreeproxies/Eternity.txt	76KB ->(0b)
+/topfreeproxies/Eternity.yaml	4MB ->(0b)
+/topfreeproxies/mihomo_config.yml	800b ->(0b)
+/topfreeproxies/mihomo-linux	29MB ->(0b)
+/topfreeproxies/mihomo-linux-amd64	31MB ->(0b)
+/topfreeproxies/mihomo-linux-arm64	29MB ->(0b)
+/topfreeproxies/proxychains.conf	171b ->(0b)
+/topfreeproxies/README.md	66KB ->(0b)
+/topfreeproxies/start.sh	3KB ->(0b)
+/topfreeproxies/sub 	3MB ->(0b)
+/topfreeproxies/update	0b ->(0b)
+/topfreeproxies/utils	335MB ->(0b)
 /usr/local/bin      	20KB ->(+2KB)
 /usr/local/etc      	0b ->(0b)
 /usr/local/games    	0b ->(0b)
@@ -640,11 +664,23 @@ docker-compose exec -it subs_topfreeproxies_service analyze_size.sh after-instal
 ```plaintext
 docker-compose exec -it subs_topfreeproxies_service analyze_size.sh after-clean after-install
 [信息] 快照 after-clean 已存在，跳过采集。如需更新请使用 --force 参数。
-=== [after-clean] 镜像体积快照 2025-05-27 20:48:54 ===
+=== [after-clean] 镜像体积快照 2025-05-28 01:48:43 ===
 
 /root/.bashrc	3KB
 /root/.profile	210b
 /root/.ssh	0b
+/topfreeproxies/Eternity.txt	76KB
+/topfreeproxies/Eternity.yaml	4MB
+/topfreeproxies/mihomo_config.yml	800b
+/topfreeproxies/mihomo-linux	29MB
+/topfreeproxies/mihomo-linux-amd64	31MB
+/topfreeproxies/mihomo-linux-arm64	29MB
+/topfreeproxies/proxychains.conf	171b
+/topfreeproxies/README.md	66KB
+/topfreeproxies/start.sh	3KB
+/topfreeproxies/sub	3MB
+/topfreeproxies/update	0b
+/topfreeproxies/utils	335MB
 /usr/local/bin	8KB
 /usr/local/etc	0b
 /usr/local/games	0b
@@ -670,6 +706,18 @@ docker-compose exec -it subs_topfreeproxies_service analyze_size.sh after-clean 
 /root/.bashrc       	3KB ->(0b)
 /root/.profile      	210b ->(0b)
 /root/.ssh          	0b ->(0b)
+/topfreeproxies/Eternity.txt	76KB ->(0b)
+/topfreeproxies/Eternity.yaml	4MB ->(0b)
+/topfreeproxies/mihomo_config.yml	800b ->(0b)
+/topfreeproxies/mihomo-linux	29MB ->(0b)
+/topfreeproxies/mihomo-linux-amd64	31MB ->(0b)
+/topfreeproxies/mihomo-linux-arm64	29MB ->(0b)
+/topfreeproxies/proxychains.conf	171b ->(0b)
+/topfreeproxies/README.md	66KB ->(0b)
+/topfreeproxies/start.sh	3KB ->(0b)
+/topfreeproxies/sub 	3MB ->(0b)
+/topfreeproxies/update	0b ->(0b)
+/topfreeproxies/utils	335MB ->(0b)
 /usr/local/bin      	8KB ->(-12KB)
 /usr/local/etc      	0b ->(0b)
 /usr/local/games    	0b ->(0b)
