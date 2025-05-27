@@ -1,36 +1,36 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 27 May 2025 19:57:28 GMT
+Date: Tue, 27 May 2025 20:10:29 GMT
 Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
 Server: cloudflare
 Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250527.txt
-Expires: Tue, 27 May 2025 19:57:26 GMT
+Expires: Tue, 27 May 2025 20:10:28 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jip0JGRJmQKP97rphxq9zI5ZAQClBWXyhZWUufQfNbiKt6JHxKiYOQFl5sV30rhHn47kDUrs7H6Bru6pZTHudzkRRtt5dUgzTYiihTq5PeJf6V8aPe%2BR49b8"}]}
-CF-RAY: 946814d58e1647f7-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=SVA2OA3wJrK0E8CF0Xywo%2B5S28UNQmvacU76wwncxkNN6wziso4wMw4W%2B2VCQOj9PCUKFLxwBj1J%2FI4acAlDuQNhwOjg0Z8uCHNX2CXe5elLORnxopsupxqo"}]}
+CF-RAY: 946827e818dfe382-NRT
 alt-svc: h3=":443"; ma=86400
 
 HTTP/1.1 200 OK
-Date: Tue, 27 May 2025 19:57:29 GMT
+Date: Tue, 27 May 2025 20:10:30 GMT
 Content-Type: text/plain
 Content-Length: 4844
 Connection: keep-alive
 Server: cloudflare
 Last-Modified: Tue, 27 May 2025 05:00:04 GMT
 Etag: "683546d4-12ec"
-Expires: Tue, 27 May 2025 19:57:28 GMT
+Expires: Tue, 27 May 2025 20:10:29 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Accept-Ranges: bytes
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=G0x4l%2BuY%2BUWvIHOVAZq%2BKGE2gkHqBuQc1MfePYzi3SckaL19kS9IPUWcmk221o7fr1rzHJhXqHJYxiA7YoQq5nKVVHs0hUr3sOawoJTy%2BMvk5tlmd39BwymP8ZDqAA%3D%3D"}]}
-CF-RAY: 946814de5ed5d754-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=JUK6ucjB%2F5iAd6YEP2CIDjZRgMfpA06gJJSLYeZ8T8nqmovRw4jvEDb%2FwF5v6X6zQd7mSirRzlf3Itrye6bf%2F683YStSODOnOkNCDUFGdWG0i3328kMfUP8T8BS7QA%3D%3D"}]}
+CF-RAY: 946827f15e73dfd9-NRT
 alt-svc: h3=":443"; ma=86400
 

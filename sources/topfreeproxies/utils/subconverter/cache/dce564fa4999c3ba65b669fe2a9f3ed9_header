@@ -1,10 +1,10 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 27 May 2025 19:57:36 GMT
+Date: Tue, 27 May 2025 20:10:37 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 0
 Connection: keep-alive
 x-powered-by: PHP/8.1.32
-expires: Tue, 27 May 2025 20:09:10 GMT
+expires: Tue, 27 May 2025 21:09:51 GMT
 cache-control: max-age=3600
 x-redirect-by: WordPress
 location: https://nodefree.githubrowcontent.com/2024/07/20240705.txt
@@ -12,14 +12,14 @@ x-litespeed-cache: hit
 platform: hostinger
 panel: hpanel
 content-security-policy: upgrade-insecure-requests
+Age: 37
 Server: hcdn
 alt-svc: h3=":443"; ma=86400
-x-hcdn-request-id: 27d8d89e81138b0c8f962db4dad50962-tok-edge4
-x-hcdn-cache-status: EXPIRED
-x-hcdn-upstream-rt: 0.518
+x-hcdn-request-id: b4239bdff3872310dd841a6b259a42ba-tok-edge3
+x-hcdn-cache-status: HIT
 
 HTTP/1.1 200 OK
-Date: Tue, 27 May 2025 19:57:37 GMT
+Date: Tue, 27 May 2025 20:10:38 GMT
 Content-Type: text/plain
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -29,7 +29,7 @@ Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Vary: Accept-Encoding
 Etag: W/"6686dca9-33a4"
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MHillR1wigiNoRiELMfWlou88qw%2BeCut8hse1hvKVJ9QZL1zEApT7U3j6HXTSxWz3yrI%2BVtJRbcOBCHDcOQ6FWEKSQ16ZhQsGUoh%2F1NWI%2FOAyKNTwtOy9ezdRgQW3YFfUucy1IAj6fwX"}]}
-CF-RAY: 946815142f292647-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qF5AUk13WHGA2gFGZpzBCggXJNUiUdwM0T7rStiQz9LsMOFB0BVRldeSlc%2BtzlI51zqTbIsgCYYtX%2B8oBpdWf4ODDhr%2FA8uqYewJBvt4bwq9Mn%2FSvwV1F4MGpPmpHrxyXFUWQwY475a9"}]}
+CF-RAY: 946828243aa7e392-NRT
 alt-svc: h3=":443"; ma=86400
 
