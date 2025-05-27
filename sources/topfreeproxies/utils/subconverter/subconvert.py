@@ -102,16 +102,14 @@ def subconverterhandler(subscription,input_config={'target':'transfer','rename':
     configparse = ConfigParser(interpolation=None)  # 禁用插值
     configparse.read('./generate.ini',encoding='utf-8')
     
-    url = quote(subscription, safe=':/|')  # URL 编码
+    url = quote(subscription, safe=':/?&=%|')  # URL 编码
     target = input_config['target']
     rename = input_config['rename']
     include = input_config['include']
     exclude = input_config['exclude']
     config = input_config['config']
     print(f"Setting URL for target {target}: {url}")  # 调试打印
-    print("写入配置前的 URL:", url)
-    configparse.set(target, 'url', url)
-    print("写入后配置文件中的 URL:", origin_configparse[target]['url'])
+    configparse.set(target,'url',url)
     configparse.set(target,'rename',rename)
     configparse.set(target,'include',include)
     configparse.set(target,'exclude',exclude)
@@ -126,10 +124,8 @@ def subconverterhandler(subscription,input_config={'target':'transfer','rename':
         'exclude': origin_configparse[target]['exclude'],
         'config': origin_configparse[target]['config']
     }
-
     with open('./generate.ini', 'w', encoding='utf-8') as ini:
         configparse.write(ini, space_around_delimiters=False)
-
     if os.name == 'posix':
         args = ['./subconverter', '-g', '--artifact', target]
     # elif os.name == 'nt':

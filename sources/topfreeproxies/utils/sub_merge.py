@@ -4,8 +4,6 @@ import json, os, time
 import chardet
 import json
 from subconverter.subconvert import convert, base64_decode
-import urllib.parse
-
 
 class Merge():
     def __init__(self,file_dir,format_config):
@@ -58,13 +56,7 @@ class Merge():
 
         content_list = []
         for index in range(len(url_list)):
-            # 原来的调用可能是：
-            # content = convert(url_list[index]['url'],'url')
-
-            # 修改为先进行 URL 解码
-            raw_url = url_list[index]['url']
-            decoded_url = urllib.parse.unquote(raw_url)
-            content = convert(decoded_url, 'url')
+            content = convert(url_list[index]['url'],'url')
 
             ids = url_list[index]['id']
             remarks = url_list[index]['remarks']

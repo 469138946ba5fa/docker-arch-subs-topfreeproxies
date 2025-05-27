@@ -1,0 +1,43 @@
+HTTP/1.1 302 Found
+Date: Tue, 27 May 2025 21:44:22 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Cache-Control: private, must-revalidate
+Cache-Control: no-cache
+Location: https://b.545437.xyz/jiji?token=12e4ca42ecd393efba7e194c5e932571
+Pragma: no-cache
+Expires: -1
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Methods: GET,POST,OPTIONS,HEAD
+Access-Control-Allow-Headers: Origin,Content-Type,Accept,Authorization,X-Request-With
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 10080
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fPEZj%2FxnHlpaXprblht6z%2FfnRiHRNSy88%2BOkhLWnAXHKDw93%2B3RJhO7ymK3%2FRl11r4p4MC8G%2FBlt1w8Ay4aGmZfNg4Je%2FOhjfYGHROE%2BhsaSxltnX062sg%3D%3D"}]}
+CF-RAY: 9468b174796989d0-NRT
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Tue, 27 May 2025 21:44:24 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2F4JcrYusTtKN6khzWe89cb4pcpqFMzM%2BlFYxojx%2B2hMYljp1BHIgCMqpRmfuVhiWv%2Fhb36pFfnBo%2Fh47m%2BkkXnt1k9uLeH%2FzDpKMbvJl574Cy%2BWtEa1GcVZPCkxzP9YaPPctJxGlyVhV0u8%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 9468b17bffabeb92-NRT
+Cf-Cache-Status: DYNAMIC
+Cache-Control: private, must-revalidate
+Expires: -1
+Vary: Accept-Encoding
+Pragma: no-cache
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Origin,Content-Type,Accept,Authorization,X-Request-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS,HEAD
+Access-Control-Max-Age: 10080
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=1031&min_rtt=1013&rtt_var=239&sent=6&recv=8&lost=0&retrans=0&sent_bytes=2828&recv_bytes=777&delivery_rate=3734072&cwnd=254&unsent_bytes=0&cid=78555bd732926a42&ts=605&x=0"
+

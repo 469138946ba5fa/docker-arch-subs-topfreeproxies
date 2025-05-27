@@ -149,6 +149,8 @@ class Update():
             r"//example\.com/.+?",  # 示例域名 (支持所有路径)
             r"//example\.worker\.dev",  # 匹配 example.worker.dev
             r"HTTP_PROXY|HTTPS_PROXY",  # 环境变量相关
+            r"\{[^\}]+\}",  # 排除带有花括号的模板（例如 {Ymd} 或 {Y}-{m}-{d}）的链接
+            r"https://ghfast\.top/",  # github-proxy 链接排除规则
         ]
         pattern = r'https?://[^\s"]+'
 

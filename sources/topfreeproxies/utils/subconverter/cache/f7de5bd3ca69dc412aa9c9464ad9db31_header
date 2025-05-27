@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Tue, 27 May 2025 21:45:39 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
+Cf-Ray: 9468b3516896eb7d-NRT
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Udd4ubnHJcw3W8HrM6EWs4tfJA3O%2FjZ59sKiw3jfURZUBP8pxO5kIg2Jz9bgkNnTycsOWdZKoSzY%2BOxXIjVX8Eyq%2FKY7bV%2BzVw%2BZHXM4sSMPD%2BQRN2nRn1GP%2Bn83i%2BTY4HlbNbIHoXM%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=1070&min_rtt=999&rtt_var=277&sent=6&recv=8&lost=0&retrans=0&sent_bytes=2823&recv_bytes=846&delivery_rate=3933852&cwnd=254&unsent_bytes=0&cid=530f63e885575383&ts=443&x=0"
+
