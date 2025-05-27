@@ -65,16 +65,16 @@
 
 ## 节点信息
 ### 所有节点
-合并节点总数: `4787`
+合并节点总数: `4785`
 [节点链接](https://raw.githubusercontent.com/469138946ba5fa/docker-arch-subs-topfreeproxies/master/topfreeproxies/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [crazygeeky](https://www.crazygeeky.com/), 节点数量: `15`
-- [Fukki-Z/nodefree](https://nodefree.org/f/freenode|Fukki-Z/nodefree|FiFier/v2rayShare), 节点数量: `74`
+- [crazygeeky](https://www.crazygeeky.com/), 节点数量: `30`
+- [Fukki-Z/nodefree](https://nodefree.org/f/freenode|Fukki-Z/nodefree|FiFier/v2rayShare), 节点数量: `56`
 - [nexthiddify.github.io](https://nexthiddify.github.io), 节点数量: `401`
 - [www.freev2raynode.com](https://www.freev2raynode.com/), 节点数量: `401`
 - [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6614`
-- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6432`
+- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6433`
 - [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7602`
 - [owner_local](192.168.255.99:8001), 节点数量: `1`
 - [shahidbhutta/Clash](https://www.github.com/shahidbhutta/Clash), 节点数量: `1`
