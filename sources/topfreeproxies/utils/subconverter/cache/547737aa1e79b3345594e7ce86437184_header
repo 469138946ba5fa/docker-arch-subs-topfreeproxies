@@ -1,5 +1,5 @@
 HTTP/1.1 301 Moved Permanently
-Date: Wed, 28 May 2025 19:59:22 GMT
+Date: Wed, 28 May 2025 20:10:50 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 0
 Connection: keep-alive
@@ -14,32 +14,12 @@ panel: hpanel
 content-security-policy: upgrade-insecure-requests
 Server: hcdn
 alt-svc: h3=":443"; ma=86400
-x-hcdn-request-id: 109c12dcba645b912331f81b4568587a-fast-edge4
+x-hcdn-request-id: 6151edd59e9df1fc937cbc4ac075f5e1-fast-edge5
 x-hcdn-cache-status: MISS
-x-hcdn-upstream-rt: 0.241
-
-HTTP/1.1 301 Moved Permanently
-Date: Wed, 28 May 2025 19:59:37 GMT
-Content-Type: text/html; charset=UTF-8
-Content-Length: 0
-Connection: keep-alive
-x-powered-by: PHP/8.1.32
-expires: Wed, 11 Jan 1984 05:00:00 GMT
-cache-control: no-cache, must-revalidate, max-age=0
-x-redirect-by: WordPress
-location: https://v2rayshare.githubrowcontent.com/2024/07/20240701.txt
-x-litespeed-cache: hit
-platform: hostinger
-panel: hpanel
-content-security-policy: upgrade-insecure-requests
-Server: hcdn
-alt-svc: h3=":443"; ma=86400
-x-hcdn-request-id: 88798af3adb04eab99c784f517b89158-fast-edge4
-x-hcdn-cache-status: MISS
-x-hcdn-upstream-rt: 0.230
+x-hcdn-upstream-rt: 0.234
 
 HTTP/1.1 200 OK
-Date: Wed, 28 May 2025 19:59:39 GMT
+Date: Wed, 28 May 2025 20:10:52 GMT
 Content-Type: text/plain
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -49,7 +29,7 @@ Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Vary: Accept-Encoding
 Etag: W/"6684e32e-31fc"
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D91pwHCr1iOgdc1ef2TmqJ1fZnVn4aLGCw8V7xiNQZZ7KjCFPyJHdzi2WFxO4Mz2M%2F6Un3TQxT1nXRkk%2FNyI8pCmWz35JlWp0BBeANPCVuYBPCEbdd4detnq48V1"}]}
-CF-RAY: 9470556aed1d8656-SLC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IdfK9SbEzGTzZKRz50UGuEL85VxdV5z2FikJ84fw6Bs67wqvszSgvby2NNeasEEuO7FKm0XnRmHfNZ2fDOVJZm%2B7soJDr6qqNJRe20JiaAp%2FOuC30DLNb%2FF3Ld3o"}]}
+CF-RAY: 947065d8aac28656-SLC
 alt-svc: h3=":443"; ma=86400
 

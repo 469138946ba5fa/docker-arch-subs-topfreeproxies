@@ -1,36 +1,36 @@
 HTTP/1.1 301 Moved Permanently
-Date: Wed, 28 May 2025 11:10:48 GMT
+Date: Wed, 28 May 2025 20:10:38 GMT
 Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
 Server: cloudflare
 Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250528.yaml
-Expires: Wed, 28 May 2025 11:10:47 GMT
+Expires: Wed, 28 May 2025 20:10:37 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=s9k98ixjiBd8pP8V5AogJ2uJuqc%2FYDBBWG%2BEhLeZhXli37aGaT6Gb1hpFgDJjWhGJ5FkYySvtDo9DPETQ2HUIi5FAwGFbzQsvqE57Q%3D%3D"}]}
-CF-RAY: 946d4ec04f3c8656-SLC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5CAC9dwkJaMhmv8hgmek2eaMJK6%2BllylVZJpgXB6kV4xYmDuH0ZkORypbsfJ5JLa%2F4FBKNoV7OjgZKTub0B5Asvu%2FU7QMkgOqLHpig%3D%3D"}]}
+CF-RAY: 94706581ca848656-SLC
 alt-svc: h3=":443"; ma=86400
 
 HTTP/1.1 200 OK
-Date: Wed, 28 May 2025 11:10:50 GMT
+Date: Wed, 28 May 2025 20:10:40 GMT
 Content-Type: application/octet-stream
 Content-Length: 191721
 Connection: keep-alive
 Server: cloudflare
 Last-Modified: Wed, 28 May 2025 05:00:05 GMT
 Etag: "68369855-2ece9"
-Expires: Wed, 28 May 2025 11:10:49 GMT
+Expires: Wed, 28 May 2025 20:10:39 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Accept-Ranges: bytes
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WwH3DUeH5rA2Qfce%2F6wsb6ZMsGxzOF%2FmGrDYFbdYOXUZIFcpf4JNrS6wye%2B%2FiLW%2FNwkM3ZqnNwXaAyv4lmqYWm7uSg%2F1GiUcrRmk4KL4AVI%3D"}]}
-CF-RAY: 946d4ec93bb38656-SLC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=la%2BOROwnRDbxccoijPf9iTWlHTLvjI3znvo6He%2B7eqHZ214sUPv4hVG4DsXZWWA6CcQ3k8G%2B%2FXnYldZjYd4U7hm4eTw1V1PkFCg%2FY6bMQXs%3D"}]}
+CF-RAY: 9470658f8dcf8656-SLC
 alt-svc: h3=":443"; ma=86400
 
