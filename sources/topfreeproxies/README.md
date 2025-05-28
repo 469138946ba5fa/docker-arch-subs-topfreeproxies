@@ -65,7 +65,7 @@
 
 ## 节点信息
 ### 所有节点
-合并节点总数: `5216`
+合并节点总数: `5217`
 [节点链接](https://raw.githubusercontent.com/469138946ba5fa/docker-arch-subs-topfreeproxies/master/topfreeproxies/sub/sub_merge_base64.txt)
 
 ### 节点来源
@@ -73,9 +73,9 @@
 - [Fukki-Z/nodefree](https://nodefree.org/f/freenode|Fukki-Z/nodefree|FiFier/v2rayShare), 节点数量: `74`
 - [nexthiddify.github.io](https://nexthiddify.github.io), 节点数量: `208`
 - [www.freev2raynode.com](https://www.freev2raynode.com/), 节点数量: `208`
-- [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6645`
+- [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6650`
 - [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6361`
-- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7658`
+- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7663`
 - [glados](https://update.glados-config.com), 节点数量: `6`
 - [@lzjjjjjjjjjjj](https://t.me/lzjjjjjjjjjjj), 节点数量: `8`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `283`

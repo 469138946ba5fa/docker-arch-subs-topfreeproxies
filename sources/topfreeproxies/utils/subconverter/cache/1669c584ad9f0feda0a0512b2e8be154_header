@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 28 May 2025 00:13:27 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250528.txt
+Expires: Wed, 28 May 2025 00:13:26 GMT
+Cache-Control: no-cache
+Cache-Control: max-age=800
+X-Xss-Protection: 1
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iFUZaMSl8SGl6Qadep%2BmrAGH50hIKeLLffpOsT3LEbuDjNIAeYzWYlVjGzJ9AZBlOfitMvJOAKf34cI02YTSRCadmY6ZPUdGlwZj0uMhli4EokXZ9%2FMzLXO0"}]}
+CF-RAY: 94698bd2a905e06e-NRT
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Wed, 28 May 2025 00:13:29 GMT
+Content-Type: text/plain
+Content-Length: 4844
+Connection: keep-alive
+Server: cloudflare
+Last-Modified: Wed, 28 May 2025 00:00:04 GMT
+Etag: "68365204-12ec"
+Expires: Wed, 28 May 2025 00:13:27 GMT
+Cache-Control: no-cache
+Cache-Control: max-age=800
+X-Xss-Protection: 1
+Accept-Ranges: bytes
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=si4b8J31IEi5u5lhh4ANg2sR7ESErHvaEyViVKK3lkXpSfZv4N6MM4ytCu9ZAmHMCnehBz4DXhfCk%2BX55iamJ30OvGwNz0MsOa7ViqiEKe2NVUpoghtToOiZLoZDXA%3D%3D"}]}
+CF-RAY: 94698bdbbd61e38d-NRT
+alt-svc: h3=":443"; ma=86400
+
