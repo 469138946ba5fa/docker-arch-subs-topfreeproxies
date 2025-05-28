@@ -1,36 +1,53 @@
 HTTP/1.1 301 Moved Permanently
-Date: Wed, 28 May 2025 02:13:18 GMT
+Date: Wed, 28 May 2025 07:37:37 GMT
 Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
 Server: cloudflare
 Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250528.yaml
-Expires: Wed, 28 May 2025 02:13:17 GMT
+Expires: Wed, 28 May 2025 07:37:35 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bsVtbyQG9irPSZrDBLOpl5PsRhghRS9e1Guz9X%2BmAw9zJLZbgFZxwwoq%2B2wttBkBeMs1AtjEiRveXGU%2BMLmrStkh2PaGmqRqLILkz%2FPJzdGjdvngoYfxQV3L"}]}
-CF-RAY: 946a3b649d38deb2-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OdCO53ST83Vkjs9WASjpdnjGsK34P%2FpDlY9QeEKDujq39L0gopHP3IHCHWP5eJ80j2R%2FOTrqqpc%2BAY43n6aMUATsfeifNtvPpeQpPGST"}]}
+CF-RAY: 946c16720e81410a-SIN
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 28 May 2025 07:37:50 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250528.yaml
+Expires: Wed, 28 May 2025 07:37:49 GMT
+Cache-Control: no-cache
+Cache-Control: max-age=800
+X-Xss-Protection: 1
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2gTZs3lEFk1N7O1aQ3w%2BZs2JVqnaR3C9efsncs11mTP7PnseUbkAkAx3hi2eFW1Mn%2BBZtIMKZTsHP6Xb%2FgW%2BSUxRYgFX0TYL1rlaNrV%2F"}]}
+CF-RAY: 946c16ca796b410a-SIN
 alt-svc: h3=":443"; ma=86400
 
 HTTP/1.1 200 OK
-Date: Wed, 28 May 2025 02:13:20 GMT
+Date: Wed, 28 May 2025 07:37:53 GMT
 Content-Type: application/octet-stream
 Content-Length: 191721
 Connection: keep-alive
 Server: cloudflare
-Last-Modified: Wed, 28 May 2025 00:00:05 GMT
-Etag: "68365205-2ece9"
-Expires: Wed, 28 May 2025 02:13:19 GMT
+Last-Modified: Wed, 28 May 2025 05:00:05 GMT
+Etag: "68369855-2ece9"
+Expires: Wed, 28 May 2025 07:37:52 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Accept-Ranges: bytes
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hW9%2FicI4C3nmbnp9XHr%2FLEebqHiOwIB7ykJyeJvanlZ824jjIOSjfsDGdeplLOf%2FAXAbZVzXDvsPazeqEDTsgkEygxw%2FB869MqehfM6G9bLglRhMItygfuxLIsSj6A%3D%3D"}]}
-CF-RAY: 946a3b6dbbb8d50f-NRT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qgYPVRe0mZHjh8fRWB6psUQFYXtRNoGbNO74oe9tXWlDgzU%2BuovAqjb556mljxtFgk20obftzq4iJWsF1SYZUTziU8ew4VrwekOILRfxG6M%2FmQ%3D%3D"}]}
+CF-RAY: 946c16d87ff14acc-SIN
 alt-svc: h3=":443"; ma=86400
 

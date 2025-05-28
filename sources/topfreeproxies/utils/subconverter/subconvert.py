@@ -45,6 +45,8 @@ def convert(subscription,target,other_config={}):
     work_dir = os.getcwd()
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+    # 初始化 clash_provider 变量，防止后续未赋值错误
+    clash_provider = ""
     if subscription[:8] == 'https://':
         clash_provider = subconverterhandler(subscription)
     else:
