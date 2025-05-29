@@ -65,7 +65,7 @@
 
 ## 节点信息
 ### 所有节点
-合并节点总数: `5226`
+合并节点总数: `4835`
 [节点链接](https://raw.githubusercontent.com/469138946ba5fa/docker-arch-subs-topfreeproxies/master/topfreeproxies/sub/sub_merge_base64.txt)
 
 ### 节点来源
@@ -73,30 +73,9 @@
 - [Fukki-Z/nodefree](https://nodefree.org/f/freenode|Fukki-Z/nodefree|FiFier/v2rayShare), 节点数量: `74`
 - [nexthiddify.github.io](https://nexthiddify.github.io), 节点数量: `232`
 - [www.freev2raynode.com](https://www.freev2raynode.com/), 节点数量: `232`
-- [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6915`
-- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6405`
-- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7546`
-- [glados](https://update.glados-config.com), 节点数量: `6`
-- [@lzjjjjjjjjjjj](https://t.me/lzjjjjjjjjjjj), 节点数量: `4`
-- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `277`
-- [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `4`
-- [Ruk1ng001/freeSub](https://github.com/Ruk1ng001/freeSub), 节点数量: `254`
-- [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `26`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `54`
-- [Alvin9999/pac2](https://github.com/Alvin9999/pac2), 节点数量: `1000`
-- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `298`
-- [Misaka-blog/chromego_merge](https://github.com/Misaka-blog/chromego_merge), 节点数量: `6207`
-- [vxiaov/free_proxies](https://github.com/vxiaov/free_proxies), 节点数量: `17`
-- [mfuu/v2ray](https://github.com/mfuu/v2ray), 节点数量: `796`
-- [mahdibland/V2RayAggregator|get_v2](https://github.com/mahdibland/V2RayAggregator|get_v2), 节点数量: `11903`
-- [SnapdragonLee/SystemProxy](https://github.com/SnapdragonLee/SystemProxy), 节点数量: `583`
-- [chengaopan/AutoMergePublicNodes](https://github.com/chengaopan/AutoMergePublicNodes), 节点数量: `298`
-- [docker-arch-subs-topfreeproxies](https://github.com/469138946ba5fa/docker-arch-subs-topfreeproxies), 节点数量: `594`
-- [Barabama/FreeNodes](https://github.com/Barabama/FreeNodes), 节点数量: `137`
-- [owner_local](http://192.168.255.99:8001), 节点数量: `1`
-- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `1`
-- [https://fofa.info](https://fofa.info/result?qbase64=Ym9keT0i6Ieq5Yqo5oqT5Y+WdGfpopHpgZPjgIHorqLpmIXlnLDlnYDjgIHlhazlvIDkupLogZTnvZHkuIrnmoRzc+OAgXNzcuOAgXZtZXNz44CBdHJvamFu6IqC54K55L+h5oGvIg==), 节点数量: `1`
-- [YasserDivaR/pr0xy](https://github.com/YasserDivaR/pr0xy), 节点数量: `1`
+- [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6912`
+- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6421`
+- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7542`
 
 ### 高速节点
 高速节点数量: `298`
