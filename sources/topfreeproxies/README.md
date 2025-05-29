@@ -65,19 +65,19 @@
 
 ## 节点信息
 ### 所有节点
-合并节点总数: `6173`
+合并节点总数: `6220`
 [节点链接](https://raw.githubusercontent.com/469138946ba5fa/docker-arch-subs-topfreeproxies/master/topfreeproxies/sub/sub_merge_base64.txt)
 
 ### 节点来源
 - [crazygeeky](https://www.crazygeeky.com/), 节点数量: `36`
-- [Fukki-Z/nodefree](https://nodefree.org/f/freenode|Fukki-Z/nodefree|FiFier/v2rayShare), 节点数量: `74`
+- [Fukki-Z/nodefree](https://nodefree.org/f/freenode|Fukki-Z/nodefree|FiFier/v2rayShare), 节点数量: `46`
 - [nexthiddify.github.io](https://nexthiddify.github.io), 节点数量: `362`
 - [www.freev2raynode.com](https://www.freev2raynode.com/), 节点数量: `362`
-- [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6796`
-- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6920`
-- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7437`
+- [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6923`
+- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6998`
+- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7465`
 - [glados](https://update.glados-config.com), 节点数量: `6`
-- [@lzjjjjjjjjjjj](https://t.me/lzjjjjjjjjjjj), 节点数量: `1`
+- [@lzjjjjjjjjjjj](https://t.me/lzjjjjjjjjjjj), 节点数量: `4`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `302`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `7`
 - [Ruk1ng001/freeSub](https://github.com/Ruk1ng001/freeSub), 节点数量: `1350`
@@ -85,10 +85,10 @@
 - [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `45`
 - [Alvin9999/pac2](https://github.com/Alvin9999/pac2), 节点数量: `1000`
 - [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `255`
-- [Misaka-blog/chromego_merge](https://github.com/Misaka-blog/chromego_merge), 节点数量: `6199`
-- [vxiaov/free_proxies](https://github.com/vxiaov/free_proxies), 节点数量: `23`
-- [mfuu/v2ray](https://github.com/mfuu/v2ray), 节点数量: `838`
-- [mahdibland/V2RayAggregator|get_v2](https://github.com/mahdibland/V2RayAggregator|get_v2), 节点数量: `11907`
+- [Misaka-blog/chromego_merge](https://github.com/Misaka-blog/chromego_merge), 节点数量: `6200`
+- [vxiaov/free_proxies](https://github.com/vxiaov/free_proxies), 节点数量: `24`
+- [mfuu/v2ray](https://github.com/mfuu/v2ray), 节点数量: `910`
+- [mahdibland/V2RayAggregator|get_v2](https://github.com/mahdibland/V2RayAggregator|get_v2), 节点数量: `11950`
 - [SnapdragonLee/SystemProxy](https://github.com/SnapdragonLee/SystemProxy), 节点数量: `631`
 - [chengaopan/AutoMergePublicNodes](https://github.com/chengaopan/AutoMergePublicNodes), 节点数量: `255`
 - [docker-arch-subs-topfreeproxies](https://github.com/469138946ba5fa/docker-arch-subs-topfreeproxies), 节点数量: `26`
