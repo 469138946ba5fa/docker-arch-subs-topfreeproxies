@@ -65,17 +65,17 @@
 
 ## 节点信息
 ### 所有节点
-合并节点总数: `4835`
+合并节点总数: `4842`
 [节点链接](https://raw.githubusercontent.com/469138946ba5fa/docker-arch-subs-topfreeproxies/master/topfreeproxies/sub/sub_merge_base64.txt)
 
 ### 节点来源
 - [crazygeeky](https://www.crazygeeky.com/), 节点数量: `30`
 - [Fukki-Z/nodefree](https://nodefree.org/f/freenode|Fukki-Z/nodefree|FiFier/v2rayShare), 节点数量: `74`
-- [nexthiddify.github.io](https://nexthiddify.github.io), 节点数量: `232`
-- [www.freev2raynode.com](https://www.freev2raynode.com/), 节点数量: `232`
-- [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6912`
-- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6421`
-- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7542`
+- [nexthiddify.github.io](https://nexthiddify.github.io), 节点数量: `362`
+- [www.freev2raynode.com](https://www.freev2raynode.com/), 节点数量: `362`
+- [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6813`
+- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6423`
+- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7449`
 
 ### 高速节点
 高速节点数量: `298`

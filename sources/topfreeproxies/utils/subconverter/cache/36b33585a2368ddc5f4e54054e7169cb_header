@@ -1,13 +1,13 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 700
+Age: 1
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
-Content-Length: 2187907
+Cache-Status: "Netlify Edge"; fwd=stale
+Content-Length: 2181456
 Content-Type: application/x-yaml
-Date: Thu, 29 May 2025 00:35:44 GMT
-Etag: "b7c363ba5d7bb7b9c7964b60e24eadb5-ssl"
+Date: Thu, 29 May 2025 02:13:08 GMT
+Etag: "bdcb5d5a0878aac1377f6fb634902e8e-ssl"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-Nf-Request-Id: 01JWCQESG50G2157NMYFSRJZ5P
+X-Nf-Request-Id: 01JWCX13PC1TQCVBG6VBMFS5R6
 
