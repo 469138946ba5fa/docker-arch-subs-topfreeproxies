@@ -65,7 +65,7 @@
 
 ## 节点信息
 ### 所有节点
-合并节点总数: `4842`
+合并节点总数: `4794`
 [节点链接](https://raw.githubusercontent.com/469138946ba5fa/docker-arch-subs-topfreeproxies/master/topfreeproxies/sub/sub_merge_base64.txt)
 
 ### 节点来源
@@ -74,8 +74,8 @@
 - [nexthiddify.github.io](https://nexthiddify.github.io), 节点数量: `362`
 - [www.freev2raynode.com](https://www.freev2raynode.com/), 节点数量: `362`
 - [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6813`
-- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6423`
-- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7449`
+- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6390`
+- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7448`
 
 ### 高速节点
 高速节点数量: `298`
