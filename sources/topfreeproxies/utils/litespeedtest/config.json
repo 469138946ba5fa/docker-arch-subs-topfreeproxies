@@ -8,12 +8,12 @@
     "testids": null,
     "timeout": 8,
     "links": null,
-    "subscription": "../.././sub/sub_merge_base64.txt",
+    "subscription": "../../temp",
     "language": "en",
     "fontSize": 24,
     "theme": "rainbow",
     "unique": false,
     "generatePicMode": 0,
     "outputMode": 3,
-    "outputRange": "-1"
+    "outputRange": "100"
 }

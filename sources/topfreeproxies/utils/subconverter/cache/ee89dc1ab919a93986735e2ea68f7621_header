@@ -1,13 +1,13 @@
 HTTP/1.1 200 OK
 Server: nginx/1.22.1
-Date: Thu, 01 May 2025 08:27:58 GMT
+Date: Thu, 29 May 2025 08:16:30 GMT
 Content-Type: text/html; charset=UTF-8
-Content-Length: 10052
+Content-Length: 8080
 Connection: keep-alive
 access-control-allow-origin: *
 access-control-allow-method: *
 access-control-allow-headers: *
-subscription-userinfo: upload=0; download=248586507863; total=322122547200; expire=1754098137
+subscription-userinfo: upload=0; download=1080967910; total=322122547200; expire=1754098137
 profile-update-interval: 12
-etag: "283eee3a7abbd43941c8bbd1aca700c5318c1420"
+etag: "e95f992cc503ab321757791e5b3a26c5ac73d24a"
 

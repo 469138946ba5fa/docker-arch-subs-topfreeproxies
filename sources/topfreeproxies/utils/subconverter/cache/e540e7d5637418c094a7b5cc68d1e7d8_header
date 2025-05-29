@@ -1,36 +1,36 @@
 HTTP/1.1 301 Moved Permanently
-Date: Thu, 29 May 2025 02:53:04 GMT
+Date: Thu, 29 May 2025 08:53:46 GMT
 Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
 Server: cloudflare
 Location: https://www.crazygeeky.com/wp-content/uploads/attachment/20250529.txt
-Expires: Thu, 29 May 2025 02:53:03 GMT
+Expires: Thu, 29 May 2025 08:53:45 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FCIXlpBDd40PSkZFck51lCqattZnAkuY%2BpedVf9g8mmXoMFj4KQPXMejv8vNDxyX9zmgpHN2vDDgPQ2IvnP7JqrXSJ5GP7mNbzMmOA%3D%3D"}]}
-CF-RAY: 9472b3092e968656-SLC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bwyK%2BVa1VkXCzPRf%2FD7XiVvsjMXYnLhF3WBV4EwLE8F1tiAiiFmS0mibvcnrTU8PmfVVjWFz3N%2ByRfJqsVw1FhFsc0IbFmOrKvXxPg%3D%3D"}]}
+CF-RAY: 9474c361ed628656-SLC
 alt-svc: h3=":443"; ma=86400
 
 HTTP/1.1 200 OK
-Date: Thu, 29 May 2025 02:53:06 GMT
+Date: Thu, 29 May 2025 08:53:48 GMT
 Content-Type: text/plain
-Content-Length: 4844
+Content-Length: 5616
 Connection: keep-alive
 Server: cloudflare
-Last-Modified: Thu, 29 May 2025 00:00:03 GMT
-Etag: "6837a383-12ec"
-Expires: Thu, 29 May 2025 02:53:05 GMT
+Last-Modified: Thu, 29 May 2025 05:00:03 GMT
+Etag: "6837e9d3-15f0"
+Expires: Thu, 29 May 2025 08:53:47 GMT
 Cache-Control: no-cache
 Cache-Control: max-age=800
 X-Xss-Protection: 1
 Accept-Ranges: bytes
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BJ5Qsor7ZeUEfj0v6eD8Zaoq1LrNWeyBeQ0kTtlBg2ny3NzDVXqnyr39QjOJawDgzWDC773M3kASKkUDsitx0gF0juJKfPe%2FrEH0R6uT4u0%3D"}]}
-CF-RAY: 9472b311cd618656-SLC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WEemnGBBflro3r1lHpVb1fFIbkWUIIKn3tbEGAlkYNhbvPnFG0SoUJOmGX%2Fw6CYGXpX2RBap9HSgZYrBbeCfWii6b6kQ2HprishaTaE%2FvQo%3D"}]}
+CF-RAY: 9474c36d5d5e8656-SLC
 alt-svc: h3=":443"; ma=86400
 
