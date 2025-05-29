@@ -65,7 +65,7 @@
 
 ## 节点信息
 ### 所有节点
-合并节点总数: `6179`
+合并节点总数: `6173`
 [节点链接](https://raw.githubusercontent.com/469138946ba5fa/docker-arch-subs-topfreeproxies/master/topfreeproxies/sub/sub_merge_base64.txt)
 
 ### 节点来源
@@ -74,14 +74,14 @@
 - [nexthiddify.github.io](https://nexthiddify.github.io), 节点数量: `362`
 - [www.freev2raynode.com](https://www.freev2raynode.com/), 节点数量: `362`
 - [gooooooooooooogle/collectSub](https://github.com/gooooooooooooogle/collectSub), 节点数量: `6796`
-- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6905`
-- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7519`
+- [github.com/beck-8](https://github.com/beck-8/subs-check/raw/refs/heads/master/config/config.example.yaml), 节点数量: `6920`
+- [yitong2333/proxy-minging](https://github.com/yitong2333/proxy-minging/raw/refs/heads/main/latest.yaml), 节点数量: `7437`
 - [glados](https://update.glados-config.com), 节点数量: `6`
-- [@lzjjjjjjjjjjj](https://t.me/lzjjjjjjjjjjj), 节点数量: `4`
+- [@lzjjjjjjjjjjj](https://t.me/lzjjjjjjjjjjj), 节点数量: `1`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `302`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `7`
 - [Ruk1ng001/freeSub](https://github.com/Ruk1ng001/freeSub), 节点数量: `1350`
-- [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `75`
+- [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `98`
 - [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `45`
 - [Alvin9999/pac2](https://github.com/Alvin9999/pac2), 节点数量: `1000`
 - [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `255`

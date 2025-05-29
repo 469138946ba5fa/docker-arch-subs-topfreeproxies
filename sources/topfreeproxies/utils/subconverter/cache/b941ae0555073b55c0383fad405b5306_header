@@ -1,5 +1,5 @@
 HTTP/1.1 301 Moved Permanently
-Date: Thu, 29 May 2025 11:10:59 GMT
+Date: Thu, 29 May 2025 11:12:53 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 0
 Connection: keep-alive
@@ -12,14 +12,14 @@ x-litespeed-cache: hit
 platform: hostinger
 panel: hpanel
 content-security-policy: upgrade-insecure-requests
-Age: 1561
+Age: 51
 Server: hcdn
 alt-svc: h3=":443"; ma=86400
-x-hcdn-request-id: 1cdbb22a9f665c7944b95ee44928d78f-fast-edge5
+x-hcdn-request-id: a73387c917523b31c956926b2aa282b6-fast-edge4
 x-hcdn-cache-status: HIT
 
 HTTP/1.1 200 OK
-Date: Thu, 29 May 2025 11:11:01 GMT
+Date: Thu, 29 May 2025 11:12:54 GMT
 Content-Type: application/octet-stream
 Content-Length: 196552
 Connection: keep-alive
@@ -29,7 +29,7 @@ Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Etag: "6686dca9-2ffc8"
 Accept-Ranges: bytes
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cLZnTb%2BrHZ3X%2FWUKZN1amt5P0s48KgrONMFNqJ0lifSxf5M3EHrdWGKMeCyAJKNywtahkQB48P8UJiQrsekJOflmxwsJNGzEA3naOqzwMtdOkpDnqSXNoC%2BKkQ%3D%3D"}]}
-CF-RAY: 94758c6dfcce8656-SLC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yxpXqwWFYnUn2i6y4ybARnxacYkP%2F8lIRWFQxexxUYK%2BYU6iMFkDNxiSnDixPhDNZhI4K%2BKT%2Fdl8kJ0ry43TPycq7tpPrveGd59dI%2BNo6CxAFsUtcN%2Frwot8mA%3D%3D"}]}
+CF-RAY: 94758f33be458656-SLC
 alt-svc: h3=":443"; ma=86400
 
