@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 31 May 2025 07:51:21 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 48664
+Connection: keep-alive
+server: uvicorn
+subscription-userinfo: upload=11253976258; download=4202110581; total=9223372036854775807; expire=4102413803
+x-proxied-host: http://10.108.98.204
+x-proxied-replica: x8ap6y7d-593eb
+x-proxied-path: /api/v1/subscribe?token=neu4ecumvl2fuk6v&amp%3Btarget=clash&amp%3Blist=0
+link: <https://huggingface.co/spaces/ohayoo/pm>;rel="canonical"
+x-request-id: InNTr8
+vary: origin, access-control-request-method, access-control-request-headers
+access-control-allow-credentials: true
+
