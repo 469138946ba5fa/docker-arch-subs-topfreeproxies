@@ -1,46 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|18🇺🇸美国|官网：蓝色海洋.xyz
-  password: ecd8a760-f449-4a96-8996-e775070f202b
-  port: 36211
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|19🇺🇸美国住宅IP|官网：a5b3cloud.pro
-  password: ecd8a760-f449-4a96-8996-e775070f202b
-  port: 36213
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|20🇺🇸美国|官网：a5b3cloud.pro
-  password: ecd8a760-f449-4a96-8996-e775070f202b
-  port: 36215
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|22🇺🇸美国|官网：mikasacloud.site
-  password: 53b85f7a-f68a-4b3f-8684-b72662ce87ab
-  port: 31211
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|23🇺🇸美国家宽|官网：m5c3cloud.pro
-  password: 53b85f7a-f68a-4b3f-8684-b72662ce87ab
-  port: 31213
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|24🇺🇸美国|官网：m5c3cloud.pro
-  password: 53b85f7a-f68a-4b3f-8684-b72662ce87ab
-  port: 31215
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 2|🇺🇸1 |  4.4MB/s|30%|Openai
@@ -826,7 +784,7 @@ proxies:
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
   client-fingerprint: chrome
-  name: '2,11|Channel id: @ShadowProxy66🇺🇸 #4'
+  name: '2,11|Channel id: @ShadowProxy66🇺🇸 #3'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1356,11 +1314,19 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
+- name: 11|🇺🇸美国2 | ⬇️ 10.7MB/s|47%|Netfli...
+  password: dongtaiwang.com
+  port: 57773
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇺🇸'
-  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
-  port: 3002
-  server: 107.175.34.118
-  sni: us.10101251.xyz
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇺🇸 #1'
@@ -1372,21 +1338,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇺🇸 #2'
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
+  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+  port: 3002
+  server: 107.175.34.118
+  sni: us.10101251.xyz
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #3'
-  password: dongtaiwang.com
-  port: 57773
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #5'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #4'
   password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0
   port: 56381
   server: 107.172.235.75
@@ -1394,7 +1352,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #6'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #5'
   password: 41a11f83
   port: 60000
   server: 141.11.89.172
@@ -1402,7 +1360,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #7'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #6'
   password: 93c16258-48e0-4c72-928c-06434e394540
   port: 40266
   server: 107.175.32.131
@@ -1410,7 +1368,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #8'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #7'
   password: 238c7704-944d-40cd-a1cf-fb775d51ac54
   port: 21042
   server: 164.152.33.5
@@ -1418,7 +1376,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #9'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #8'
   password: 87f055ba
   port: 60000
   server: 141.11.89.172
@@ -1438,7 +1396,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505250813455-9i84PIbLBb.download.microsoft.com
+    host: 202505250813455-KDSmts8jZf.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1499,21 +1457,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|US_speednode_0069
-  network: ws
-  port: 80
-  server: 151.101.130.133
-  servername: Channel-MOSIV2--MOSIV2.IR
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Channel-MOSIV2--MOSIV2.IR
-    path: /Channel-MOSIV2--MOSIV2--Channel-MOSIV2--MOSIV2?ed=2560
-- name: 14|US_speednode_0070
+- name: 14|US_speednode_0097
   network: ws
   port: 8880
   server: 167.68.42.20
@@ -1527,50 +1471,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 14|US_speednode_0071
-  network: ws
-  port: 8880
-  server: 14.102.229.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|US_speednode_0072
-  network: ws
-  port: 8880
-  server: 108.165.216.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|US_speednode_0073
-  network: ws
-  port: 8880
-  server: 185.148.105.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|US_speednode_0074
+- name: 14|US_speednode_0098
   network: ws
   port: 8880
   server: 209.46.30.20
@@ -1584,35 +1485,21 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0075
+- name: 14|US_speednode_0099
   network: ws
   port: 8880
-  server: 154.206.12.170
-  servername: join.vpncustomize.iran.ir.arvancloud.ir.www.speedtest.net.shet.ddns-ip.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f715a99a-3330-468e-8366-068fc2095fd0
-  ws-opts:
-    headers:
-      Host: join.vpncustomize.iran.ir.arvancloud.ir.www.speedtest.net.shet.ddns-ip.net
-    path: /Telegram—VPNCUSTOMIZE?ed=2048
-- name: 14|US_speednode_0076
-  network: ws
-  port: 80
-  server: 141.193.213.187
-  servername: cs.laoyoutiao.link
+  server: 185.148.105.20
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: cs.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|US_speednode_0077
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0100
   network: ws
   port: 8880
   server: 104.254.140.20
@@ -1626,52 +1513,8 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0079
-  network: ws
-  port: 80
-  server: 141.193.213.230
-  servername: cs.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: cs.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
 - client-fingerprint: chrome
-  name: 14|US_speednode_0080
-  network: ws
-  port: 8880
-  server: 192.200.160.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|US_speednode_0081
-  password: e3qTaj4gOeDDzR8lzYXpyZDpga5a3SCwyE4CO6c738aZxwlaaAD0SYSYyXOlF9S3FRF0x
-  port: 28331
-  server: cutlery.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0082
-  password: e3qTaj4gOeDDzR8lzYXpyZDpga5a3SCwyE4CO6c738aZxwlaaAD0SYSYyXOlF9S3FRF0x
-  port: 28331
-  server: cutlery.homeofbrave.net
-  skip-cert-verify: false
-  sni: cutlery.homeofbrave.net
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 14|US_speednode_0083
+  name: 14|US_speednode_0102
   network: ws
   port: 8880
   server: 104.129.164.20
@@ -1685,7 +1528,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0084
+- name: 14|US_speednode_0103
   network: ws
   port: 8880
   server: 45.159.216.20
@@ -1699,10 +1542,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0085
+- name: 14|US_speednode_0104
   network: ws
   port: 8880
-  server: 167.68.42.20
+  server: 108.165.216.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -1712,50 +1555,8 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /
-- name: 14|US_speednode_0087
-  network: ws
-  port: 443
-  server: 160.79.105.89
-  servername: ca.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: ca.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0090
-  network: ws
-  port: 8880
-  server: 14.102.228.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /
-- name: 14|US_speednode_0091
-  network: ws
-  port: 443
-  server: 160.79.104.11
-  servername: ca.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: ca.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 14|US_speednode_0092
+- name: 14|US_speednode_0105
   network: ws
   port: 8880
   server: 14.102.229.20
@@ -1769,77 +1570,54 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- name: 14|US_speednode_0093
+- name: 14|US_speednode_0106
   network: ws
-  port: 443
-  server: 192.0.54.42
-  servername: ca.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: ca.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 14|US_speednode_0094
-  network: ws
-  port: 80
-  server: 151.101.2.133
-  servername: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-  skip-cert-verify: true
+  port: 8880
+  server: 167.68.42.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 75ecef77-2050-4250-99f7-936d0188edf2
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-    path: /ws/?ed=2048
-- name: 14|US_speednode_0095
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: 14|US_speednode_0107
   network: ws
-  port: 443
-  server: 160.79.105.78
-  servername: ca.bgm2024.dpdns.org
+  port: 8880
+  server: 14.102.228.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 14|US_speednode_0108
+  network: ws
+  port: 18899
+  server: 154.17.238.64
+  servername: madcity3.mianfeicf.lol
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: ebcdd90c-d374-4f88-a4b4-7d9df8c0bad6
   ws-opts:
     headers:
-      Host: ca.bgm2024.dpdns.org
+      Host: madcity3.mianfeicf.lol
     path: /?ed=2560
-- name: 14|US_speednode_0096
-  network: ws
-  port: 443
-  server: 135.84.76.110
-  servername: ca.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: ca.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 14|US_speednode_0097
-  network: ws
-  port: 443
-  server: 160.79.104.79
-  servername: ca.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: ca.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 14|US_speednode_0098
+- name: 14|US_speednode_0110
   network: ws
   port: 8880
   server: 185.148.105.20
@@ -1853,235 +1631,35 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- name: 14|US_speednode_0099
-  network: ws
-  port: 443
-  server: 63.141.128.102
-  servername: ca.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: ca.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 14|US_speednode_0100
-  password: BIRCauz5R2S8O3pZ56eg8yC43yla4T3D7znxCDFxSCODO9jA3NxAcaE3YYK3Sq8u9DxZg
-  port: 18332
-  server: closet.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0102
-  network: ws
-  port: 443
-  server: 63.141.128.140
-  servername: ca.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: ca.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 14|US_speednode_0103
-  network: ws
-  port: 443
-  server: 160.79.104.115
-  servername: ca.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: ca.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 14|US_speednode_0104
-  password: CYjXlaFOAyEDZaTe0gZaCOCyy4RwSyKYDq9SSpDCxzF33eA3SS06O28aj65a3lY3znO88
-  port: 28332
-  server: handles.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0106
-  network: ws
-  port: 80
-  server: fastaly.dollardoon.com
-  servername: vipfast_7.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 798d215f-ddf2-4a42-9a27-9270f5ba2987
-  ws-opts:
-    headers:
-      Host: vipfast_7.com
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048
-- name: 14|US_speednode_0107
-  password: Ye8uA37l3C9FwpCwBCuZBy4SqlKTapDXEDnCZFRKSNlZCRSy0I3Yc8DxayzOeO3xaxjjg
-  port: 28331
-  server: fireplace.wireshop.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0108
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 108.165.152.58
-  skip-cert-verify: false
-  sni: epmw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epmw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 14|US_speednode_0109
-  network: ws
-  port: 80
-  server: 151.101.64.155
-  servername: irancell.net.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: def38710-11e0-4dbe-ba33-ea3ca818de1d
-  ws-opts:
-    headers:
-      Host: irancell.net.
-    path: /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048
-- name: 14|US_speednode_0110
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v14.pronetwork.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v14.pronetwork.com
-    path: /?ed=2048
 - name: 14|US_speednode_0111
   network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v10.pronetwork.com
-  skip-cert-verify: false
-  tls: false
+  port: 2000
+  server: 144.34.170.149
+  servername: us3-hax.lzj520hxw.dpdns.org
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
   ws-opts:
     headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v10.pronetwork.com
-    path: /?ed=2048
+      Host: us3-hax.lzj520hxw.dpdns.org
+    path: /lzjjj666
 - name: 14|US_speednode_0112
   network: ws
-  password: Aimer
-  port: 443
-  server: 192.3.127.231
-  skip-cert-verify: false
-  sni: epmw.ambercc.filegear-sg.me
-  type: trojan
+  port: 58385
+  server: 172.93.43.72
+  servername: us2-hax.lzj520hxw.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
   ws-opts:
     headers:
-      Host: epmw.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: us2-hax.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjj666666666
 - name: 14|US_speednode_0113
-  network: ws
-  password: Aimer
-  port: 20080
-  server: 192.210.207.89
-  skip-cert-verify: false
-  sni: epme.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epme.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 14|US_speednode_0114
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v06.pronetwork.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v06.pronetwork.com
-    path: /?ed=2048
-- name: 14|US_speednode_0115
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.pronetwork.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.pronetwork.com
-    path: /?ed=2048
-- name: 14|US_speednode_0116
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v17.pronetwork.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v17.pronetwork.com
-    path: /?ed=2048
-- name: 14|US_speednode_0117
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v03.pronetwork.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v03.pronetwork.com
-    path: /?ed=2048
-- name: 14|US_speednode_0118
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v19.pronetwork.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v19.pronetwork.com
-    path: /?ed=2048
-- name: 14|US_speednode_0119
   network: ws
   port: 8080
   server: 170.114.45.6
@@ -2095,7 +1673,7 @@ proxies:
     headers:
       Host: xrr.rtxconfigz.xyz
     path: /
-- name: 14|US_speednode_0120
+- name: 14|US_speednode_0114
   network: ws
   port: 8080
   server: support.zoom.us
@@ -2109,41 +1687,87 @@ proxies:
     headers:
       Host: xrr.rtxconfigz.xyz
     path: /
-- name: 14|US_speednode_0121
+- name: 14|US_speednode_0115
   network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
+  port: 8880
+  server: 14.102.228.20
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
+  tls: false
+  type: vless
   udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 14|US_speednode_0122
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  port: 443
-  server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
-  tls: true
-  type: http
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0116
+  network: ws
+  port: 8880
+  server: 104.129.167.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
-  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-- alpn:
-  - http/1.1
-  client-fingerprint: randomized
-  name: 14|US_speednode_0123
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0117
   network: ws
   port: 443
-  server: 104.17.148.22
-  servername: hOZori.iR
-  skip-cert-verify: false
+  server: 66.179.48.80
+  servername: eu1-woiden.lzj520hxw.dpdns.org
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
   ws-opts:
     headers:
-      Host: hOZori.iR
-    path: /RklUHeautH5uvnSB/NTQuMTY5LjIyOS4xODg
+      Host: eu1-woiden.lzj520hxw.dpdns.org
+    path: /t.me/lzjjjjjjjjjjj
+- name: 14|US_speednode_0118
+  network: ws
+  port: 80
+  server: 45.159.218.17
+  servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
+  ws-opts:
+    headers:
+      Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
+    path: /
+- name: 14|US_speednode_0120
+  network: ws
+  port: 8080
+  server: 170.114.46.6
+  servername: xrr.rtxconfigz.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  ws-opts:
+    headers:
+      Host: xrr.rtxconfigz.xyz
+    path: /
+- name: 14|US_speednode_0121
+  network: ws
+  port: 443
+  server: 45.202.113.200
+  servername: freesg-windows.lzj520hxw.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 596a06cb-1bd4-4974-8af2-aaaf0bd10c5c
+  ws-opts:
+    headers:
+      Host: freesg-windows.lzj520hxw.dpdns.org
+    path: /t.me/lzjjjjjjjjjjj

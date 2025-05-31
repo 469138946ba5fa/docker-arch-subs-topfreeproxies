@@ -15,59 +15,68 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 👖TG频道@stymei1丨1, server: hkh8.youxuan.wiki, port: 52500, client-fingerprint: null, type: hysteria2, cipher: 2022-blake3-aes-128-gcm, password: 'MjdlZmY4YWIyZDU0OGNkNw==:NDRmZGIxM2ItZTIzYi00MA==', tfo: false, alpn: [h3], auth: 6cab1805-92ff-4d19-b64b-25d1f4250804, fast-open: true, servername: hkh8.youxuan.wiki, sni: hkh8.youxuan.wiki, tls: true}
+  - {name: 👖TG频道@stymei1丨1, server: tw02.graniterapids.com, port: 5185, client-fingerprint: null, type: ss, cipher: rc4-md5, password: '26d8vZ', tfo: false, alpn: [h3], auth: 6cab1805-92ff-4d19-b64b-25d1f4250804, fast-open: true, servername: hkh8.youxuan.wiki, sni: hkh8.youxuan.wiki, tls: true}
   - alterId: 0
-    cipher: ""
+    cipher: "rc4-md5"
     flow: ""
     name: 👖TG频道@stymei1丨2
     network: ws
-    port: 8880
-    server: 91.193.58.69
-    type: vless
+    port: 44806
+    server: us09.graniterapids.com
+    type: ss
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     ws-opts:
       headers:
         Host: cs.laoyoutiao.link
       path: /Telegram@WangCai2/?ed=2560
+    password: jKtjnD
   - alterId: 0
-    cipher: ""
+    cipher: "rc4-md5"
     flow: ""
     name: 👖TG频道@stymei1丨3
     network: ws
-    port: 8880
-    server: 91.193.58.196
-    type: vless
+    port: 5185
+    server: twgame02.graniterapids.com
+    type: ss
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     ws-opts:
       headers:
         Host: cs.laoyoutiao.link
       path: /Telegram@WangCai2/?ed=2560
+    password: 26d8vZ
   - alterId: 0
-    cipher: ""
+    cipher: "rc4-md5"
     flow: ""
     name: 👖TG频道@stymei1丨4
     network: ws
-    port: 8880
-    server: 91.193.58.198
-    type: vless
+    port: 17981
+    server: jp46.ctg.wtf
+    type: ss
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     ws-opts:
       headers:
         Host: us.laoyoutiao.link
       path: /telegramu0001f1e8u0001f1f3 @mxlshare @wangcai2 /?ed=2560
-  - alterId: 0
+    password: URqABv
+  - alterId: 2
     cipher: ""
     flow: ""
     name: 👖TG频道@stymei1丨5
     network: ws
-    port: 8880
-    server: 91.193.58.78
-    type: vless
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    port: 47262
+    server: 64.181.207.162
+    type: hysteria2
+    uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
     ws-opts:
       headers:
-        Host: cs.laoyoutiao.link
-      path: /Telegram@WangCai2/?ed=2560
+        Host: zxjp-b.tkong.cc
+      path: /
+    tls: true
+    servername: www.bing.com
+    sni: www.bing.com
+    auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+    fast-open: false
+    skip-cert-verify: true
   - cipher: aes-256-gcm
     name: 👖TG频道@stymei1丨6
     password: 0S43J3FD6L7IEKGQ
@@ -80,13 +89,13 @@ proxies:
     name: 👖TG频道@stymei1丨7
     network: ws
     port: 8880
-    server: 156.238.18.16
+    server: 156.238.18.252
     type: vless
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     ws-opts:
       headers:
-        Host: yd.laoyoutiao.link
-      path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+        Host: jp.laoyoutiao.link
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
   - alpn:
       - h3
     auth: dongtaiwang.com
@@ -110,7 +119,7 @@ proxies:
     username: mrwdfNTD8M79LCukCieldrqZWqs=
   - alpn:
       - h3
-    name: 👖TG频道@stymei1
+    name: 👖TG频道@stymei1丨10
     password: f3ba3679-f2f4-465f-92a5-de320b775a88
     port: 43516
     server: 185.22.155.105
@@ -139,7 +148,7 @@ proxy-groups:
       - 👖TG频道@stymei1丨7
       - 👖TG频道@stymei1丨8
       - 👖TG频道@stymei1丨9
-      - 👖TG频道@stymei1
+      - 👖TG频道@stymei1丨10
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -154,7 +163,7 @@ proxy-groups:
       - 👖TG频道@stymei1丨7
       - 👖TG频道@stymei1丨8
       - 👖TG频道@stymei1丨9
-      - 👖TG频道@stymei1
+      - 👖TG频道@stymei1丨10
   - name: 🎯 国内网站设置
     type: select
     proxies:
